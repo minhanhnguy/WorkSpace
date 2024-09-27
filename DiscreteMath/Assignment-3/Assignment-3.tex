@@ -1,0 +1,207 @@
+\documentclass[12pt]{article}
+\setlength{\oddsidemargin}{0in}
+\setlength{\evensidemargin}{0in}
+\setlength{\textwidth}{6.5in}
+\setlength{\parindent}{0in}
+\setlength{\parskip}{\baselineskip}
+
+\usepackage{amsmath,amsfonts,amssymb,bm,graphics,pgfplots,framed,dsfont}
+\usepackage[scale=0.75,top=1cm,bottom=3cm]{geometry}
+
+\begin{document}
+
+\textbf{Minh Anh Nguyen }\\
+\textbf{Discrete Math \hfill Assignment - 3}
+
+\hrulefill
+
+\begin{enumerate}
+
+      \item In the domain of integers, let $P(x, y)$ be the predicate “$x \cdot y = 12$.” Tell whether each of the following statements is true or false.
+            \begin{enumerate}
+                  \item $P(3,4) \rightarrow True$
+                  \item $P(3,5) \rightarrow False$
+                  \item $[P(2,6) \vee P(3,7)] \rightarrow True$
+                  \item $[(\forall x)(\forall y)(P(x,y) \rightarrow P(y,x))] \rightarrow True$
+                  \item $[(\forall x)(\exists y)P(x,y)] \rightarrow True$
+            \end{enumerate}
+
+      \item In the domain of all penguins, let $D(x)$ be the predicate “x is dangerous.” Translate the following quantified statements into simple, everyday English.
+            \begin{enumerate}
+                  \item $(\forall x)D(x)$: All penguins are dangerous.
+                  \item $(\exists x)D(x)$: There exists at least one penguin that is dangerous.
+                  \item $\neg (\exists x)D(x) \equiv (\forall x)\neg D(x)$: All penguins are not dangerous.
+                  \item $(\exists x)\neg D(x)$: There exists at least one penguin that is not dangerous.
+            \end{enumerate}
+
+      \item In the domain of all movies, let $V(x)$ be the predicate “x is violent.” Write the following statements in the symbols of predicate logic.
+            \begin{enumerate}
+                  \item Some movies are violent: $(\exists x)V(x)$
+                  \item Some movies are not violent: $(\exists x) \neg V(x)$
+                  \item No movies are violent: $(\forall x) \neg V(x)$
+                  \item All movies are violent: $(\forall x) V(x)$
+            \end{enumerate}
+
+      \item Let the following predicates be given. The domain is all mammals.
+            \[L(x) = "\text{x is a lion.}"\]
+            \[F(x) = "\text{x is fuzzy.}"\]
+            Translate the following statements into predicate logic.
+            \begin{enumerate}
+                  \item All lions are fuzzy: $(\forall x)(L(x) \rightarrow F(x))$
+                  \item Some lions are fuzzy: $(\exists x)((L(x) \wedge F(x))$
+            \end{enumerate}
+
+      \item In the domain of all books, consider the following predicates.
+            \[H(x) = "\text{x is heavy.}"\]
+            \[C(x) = "\text{x is confusing.}"\]
+            Translate the following statements in predicate logic into ordinary English.
+            \begin{enumerate}
+                  \item $(\forall x)(H(x) \rightarrow C(x))$: All books that are heavy are confusing.
+                  \item $(\exists x)(C(x) \wedge H(x))$: There is at least one book that is both heavy and confusing.
+                  \item $(\forall x)(C(x) \vee H(x))$: All books are confusing or heavy   .
+                  \item $(\exists x)(H(x) \wedge \neg C(x))$: There is at least one book that is heavy but not confusing.
+            \end{enumerate}
+
+      \item The domain of the following predicates is the set of all plants.
+            \[P(x) = "\text{x is poisonous}"\]
+            \[Q(x) = "\text{Jeff has eaten x.}"\]
+            Translate the following statements into predicate logic.
+            \begin{enumerate}
+                  \item Some plants are poisonous: $(\exists x)P(x)$
+                  \item Jeff has never eaten a poisonous plant: $(\forall x)[P(x) \rightarrow \neg Q(x)]$
+                  \item There are some nonpoisonous plants that Jeff has never eaten: \[(\exists x) [\neg P(x) \wedge \neg Q(x)] \]
+            \end{enumerate}
+
+      \item In the domain of nonzero integers, let $I(x, y)$ be the predicate “$x/y$ is an integer.” Determine whether the following statements are true or false, and explain why.
+            \begin{enumerate}
+                  \item $(\forall y)(\exists x)I(x, y)$: For all $y$, there exists at least one $x$ that $x/y$ is an integer.\\~\\
+                        For all nonzero integer $y$, we can always pick $x = 2y$, because $2y/y = 2$, which is an integer. Hence, this statement is true.\\
+                  \item $(\exists x)(\forall y)I(x, y)$: There exists at least one $x$ that with all $y$, $x/y$ is an integer.\\~\\
+                        The only $x$ that $x/y$ with all $y$ is an integer is 0. But since the domain is nonzero integers, this statement is false.
+            \end{enumerate}
+
+      \item In the domain of integers, consider the following predicates: Let N(x) be the statement “$x \neq 0$.” Let $P(x, y)$ be the statement “$xy = 1.$”
+            \begin{enumerate}
+                  \item Translate the following statement into the symbols of predicate logic.
+                        \begin{center}
+                              For all integers x, there is some integer y such that if $x \neq 0$, then $xy = 1$.
+                        \end{center}
+                        \[(\forall x)(\exists y)[N(x) \rightarrow P(x,y)]\]
+                  \item Write the negation of your answer to part (a) in the symbols of predicate logic. Simplify your answer so that it uses the $\wedge$ connective.\\
+                        The negation of the answer to part (a) is:
+                        \[\neg(\forall x)(\exists y)[N(x) \rightarrow P(x,y)]\]
+                        \[(\exists x)\neg(\exists y)[N(x) \rightarrow P(x,y)]\]
+                        \[(\exists x)(\forall y)\neg[N(x) \rightarrow P(x,y)]\]
+                        \[(\exists x)(\forall y)\neg[\neg N(x) \vee P(x,y)]\]
+                        \[(\exists x)(\forall y)[\neg (\neg N(x)) \wedge \neg P(x,y)]\]
+                        \[(\exists x)(\forall y)[N(x) \wedge \neg P(x,y)]\]
+                  \item Translate your answer from part (b) into an English sentence.
+                        The answer from part (b) is:
+                        \[(\exists x)(\forall y)[N(x) \wedge \neg P(x,y)]\]
+                        It can be translated: \textquotedblleft There are at least one $x$ that for all $y$, $x \neq 0$ and $xy \neq 1$.\textquotedblright
+                  \item Which statement, (a) or (b), is true in the domain of integers? Explain.\\~\\
+                        The statement of (a) is false and (b) is true in the domain of integers.\\
+                        \[P(x,y):\text{~}xy = 1\]
+                        \[{\displaystyle y = \frac{1}{x}}\]
+                        Because for all $x$ different from 0, you cannot pick a $y$ that ${\displaystyle y = \frac{1}{x}}$ that $y$ is in the domain of integers (except for $x = 1$). Hence, the statement (a) is false.\\~\\
+                        The statement (b) is the negation of the statement (a). Therefore, the statement (b) is true.
+            \end{enumerate}
+      \item Let P(x, y, z) be the predicate “x + y = z.”
+            \begin{enumerate}
+                  \item Simplify the statement $\neg (\forall x)(\forall y)(\exists z)P(x,y,z)$ so that no quantifier lies within the scope of a negation.
+                        \[\neg (\forall x)(\forall y)(\exists z)P(x,y,z)\]
+                        \[ (\exists x)\neg(\forall y)(\exists z)P(x,y,z)\]
+                        \[ (\exists x)(\exists y)\neg(\exists z)P(x,y,z)\]
+                        \[ (\exists x)(\exists y)(\forall z)\neg P(x,y,z)\]
+                  \item Is the statement $(\forall x)(\forall y)(\exists z)P(x,y,z)$ true in the domain of all integers? Explain why or why not.\\
+                        The statement is true because for all $x$ and $y$ in the domain of all integers, we can always pick a $z$ that $z = x + y$ and $z$ is also a integer.
+                  \item Is the statement $(\forall x)(\forall y)(\exists z)P(x,y,z)$ true in the domain of all integers between 1 and 100? Explain why or why not.\\
+                        The statement is false because for $x = 99$ and $y = 98$, we cannot pick a $z$ in the domain of all integers between 1 and 100 because $z = x + y = 99 + 98 = 197$.
+            \end{enumerate}
+            \newpage
+      \item The domain of the following predicates is the set of all traders who work at the Tokyo Stock Exchange.
+            \[P(x,y) = \text{\textquotedblleft} \text{x makes more money than y} \text{\textquotedblright}\]
+            \[Q(x,y) = \text{\textquotedblleft} x \neq y \text{\textquotedblright}\]
+            Translate the following predicate logic statements into ordinary, everyday English. (Don’t simply give a word-for-word translation; try to write sentences that make sense.)
+            \begin{enumerate}
+                  \item $(\forall x)(\exists y)P(x,y)$: For every trader working at the Tokyo Stock Exchange, there is at least one trader that make less money than them.
+                  \item $(\exists y)(\forall x)[Q(x,y) \rightarrow P(x,y)]$: There is a trader that every other traders make more money than.
+                  \item Which statement is impossible in this context? Why? \\
+                        The statement "For every trader working at the Tokyo Stock Exchange, there is at least one trader that make more money than them." is impossible since there must be at least a trader that make more money than everyone else.
+            \end{enumerate}
+
+      \item Translate the following statements into predicate logic using the two common constructions in Section 1.3.5. State what your predicates are, along with the domain of each.
+            \begin{enumerate}
+                  \item All natural numbers are integers.
+                        \[F(x) = \text{\textquotedblleft} \text{x is an integer.} \text{\textquotedblright}\]
+                        \[P(x) = \text{\textquotedblleft} \text{x is a natural number.} \text{\textquotedblright}\]
+                        The domain is all integers.\\
+                        The statement can be translated into: $(\forall x)[P(x) \rightarrow F(x)]$
+                  \item Some integers are natural numbers.
+                        \[F(x) = \text{\textquotedblleft} \text{x is a natural number.} \text{\textquotedblright}\]
+                        The domain is all integers.\\
+                        The statement can be translated into: $(\exists x)F(x)$
+                  \item All the streets in Cozumel, Mexico, are one-way.
+                        \[F(x) = \text{\textquotedblleft} \text{x is one-way.} \text{\textquotedblright}\]
+                        The domain is all the streets in Cozumel, Mexico.\\
+                        The statement can be translated into: $(\forall x)F(x)$
+                  \item Some streets in London don’t have modern curb cuts.
+                        \[F(x) = \text{\textquotedblleft} \text{x has modern curb cuts.} \text{\textquotedblright}\]
+                        The domain is all the streets in London.\\
+                        The statement can be translated into: $(\exists x)\neg F(x)$
+            \end{enumerate}
+
+      \item Write the following statements in predicate logic. Define your predicates. Use the domain of all quadrilaterals.
+            \begin{enumerate}
+                  \item All rhombuses are parallelograms.
+                        \[F(x) = \text{\textquotedblleft} \text{x is a rhombus.} \text{\textquotedblright}\]
+                        \[P(x) = \text{\textquotedblleft} \text{x is a parallelogram.} \text{\textquotedblright}\]
+                        The statement can be translated into: $(\forall x)(F(x) \rightarrow P(x))$
+                  \item Some parallelograms are not rhombuses.
+                        \[F(x) = \text{\textquotedblleft} \text{x is a rhombus.} \text{\textquotedblright}\]
+                        \[P(x) = \text{\textquotedblleft} \text{x is a parallelogram.} \text{\textquotedblright}\]
+                        The statment can be translated into: $(\exists x)(P(x) \wedge \neg F(x))$
+            \end{enumerate}
+
+      \item Let the following predicates be given. The domain is all people.
+            \[R(x) = \text{\textquotedblleft} \text{x is rude.} \text{\textquotedblright}\]
+            \[\neg R(x) = \text{\textquotedblleft} \text{x is pleasant.} \text{\textquotedblright}\]
+            \[C(x) = \text{\textquotedblleft} \text{x is a child.} \text{\textquotedblright}\]
+            \begin{enumerate}
+                  \item Write the following statement in predicate logic.
+                        \begin{center}
+                              There is at least one rude child.
+                        \end{center}
+                        The statement can be translated into: $(\exists x)[C(x)\wedge(R(x))]$
+                  \item Formally negate your statement from part (a).\\~\\
+                        The negation of my statement from part (a) is:
+                        \[\neg (\exists x)[C(x) \wedge R(x)]\]
+                        \[(\forall x)\neg(C(x) \wedge R(x))\]
+                        \[(\forall x)(\neg C(x) \vee \neg R(x))\]
+                  \item Write the English translation of your negated statement.
+                        The negated statement can be translated into:
+                        \begin{center}
+                              There is no rude child.\\
+                              \textit{or}\\
+                              All the children are pleasant.
+                        \end{center}
+
+            \end{enumerate}
+      \item In the domain of all people, consider the following predicate.
+            \[P(x,y) = \text{\textquotedblleft} \text{x needs to love y.} \text{\textquotedblright}\]
+            \begin{enumerate}
+                  \item Write the statement “Everybody needs somebody to love” in predicate logic.
+                        \[(\forall x)(\exists y)(P(x,y))\]
+                  \item Formally negate your statement from part (a).
+                        \[\neg (\forall x)(\exists y)(P(x,y))\]
+                        \[(\exists x)\neg(\exists y)(P(x,y))\]
+                        \[(\exists x)(\forall y)(\neg P(x,y))\]
+                  \item Write the English translation of your negated statement.
+                        The negated statement can be translated into:
+                        \begin{center}
+                              There exists at least a person that doesn't need to love anyone.
+                        \end{center}
+            \end{enumerate}
+\end{enumerate}
+
+\end{document}
