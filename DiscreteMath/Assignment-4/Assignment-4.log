@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.8.31)  27 SEP 2024 06:23
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.8.31)  28 SEP 2024 04:30
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -474,54 +474,63 @@ Package pgfplots Warning: running in backwards compatibility mode (unsuitable ti
 <img/img-0.png, id=4, 248.93pt x 103.38625pt>
 File: img/img-0.png Graphic file (type png)
 <use img/img-0.png>
-Package pdftex.def Info: img/img-0.png  used on input line 25.
+Package pdftex.def Info: img/img-0.png  used on input line 23.
 (pdftex.def)             Requested size: 248.92938pt x 103.38599pt.
 <img/img-1.png, id=5, 171.64125pt x 103.38625pt>
 File: img/img-1.png Graphic file (type png)
 <use img/img-1.png>
-Package pdftex.def Info: img/img-1.png  used on input line 54.
+Package pdftex.def Info: img/img-1.png  used on input line 52.
 (pdftex.def)             Requested size: 171.64081pt x 103.38599pt.
 
 
 [1
 
 {C:/Users/Tony Nguyen/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./img/img-0.png> <./img/img-1.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 58--59
+Underfull \hbox (badness 10000) in paragraph at lines 56--57
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 67--68
+Underfull \hbox (badness 10000) in paragraph at lines 65--66
 
  []
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 78.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 76.
 (C:\Users\Tony Nguyen\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 78.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 76.
  (C:\Users\Tony Nguyen\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 
-[2] (Assignment-4.aux)
+[2]
+Underfull \hbox (badness 10000) in paragraph at lines 145--146
+
+ []
+
+
+
+[3]
+
+[4] (Assignment-4.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-07-20>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 23825 strings out of 473898
- 620830 string characters out of 5723611
- 1934960 words of memory out of 5000000
- 46320 multiletter control sequences out of 15000+600000
+ 23818 strings out of 473898
+ 620717 string characters out of 5723611
+ 1935960 words of memory out of 5000000
+ 46313 multiletter control sequences out of 15000+600000
  565830 words of font info for 64 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,6n,107p,829b,777s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 99i,6n,107p,829b,774s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Tony Nguyen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Tony Nguyen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Tony Nguyen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on Assignment-4.pdf (2 pages, 48773 bytes).
+Output written on Assignment-4.pdf (4 pages, 52821 bytes).
 PDF statistics:
- 31 PDF objects out of 1000 (max. 8388607)
+ 37 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  23 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -18,8 +18,6 @@
 Section 2.1:
 
 \begin{enumerate}
-  %--%
-
   \item Consider the following undirected graph.
   \begin{center}
     \includegraphics{img/img-0.png}
@@ -88,21 +86,93 @@ Section 2.1:
       \node[main] (1) {$1$}; 
       \node[main] (2) [above right of=1] {$2$}; 
       \node[main] (3) [below right of=1] {$3$}; 
-      \node[main] (4) [above right of=3] {$4$}; 
-      \node[main] (5) [above right of=4] {$5$}; 
-      \node[main] (6) [below right of=4] {$6$}; 
-      \node[main] (7) [below right of=6] {$7$}; 
-      \draw[->] (1) -- (2); 
-      \draw[->] (1) -- (3); 
+      \node[main] (4) [above right of=2] {$4$}; 
+      \node[main] (5) [below right of=2] {$5$}; 
+      \node[main] (6) [below right of=5] {$6$}; 
+      \node[main] (7) [below right of=4] {$7$}; 
+      \draw (1) -- (2); 
+      \draw (1) -- (3); 
       \draw (2) -- (4); 
-      \draw (3) -- (4); 
-      \draw (5) -- (4); 
-      \draw[->] (5) to [out=315, in=315, looseness=2.5] (3); 
-      \draw[->] (6) -- node[midway, above right, sloped, pos=1] {+1} (4); 
+      \draw (2) -- (5);
+      \draw (7) -- (6);
+      \draw (4) -- (7);
       \end{tikzpicture} 
   \end{center}
-  
+  It has 6 edges.
+  \newpage
+  \item Draw an undirected graph with six vertices, each of degree 3, such that the graph is:
+  \begin{enumerate}
+    \item Connected.
+    \begin{center}
+      \begin{tikzpicture}[node distance={20mm}, thick, main/.style = {draw, circle}] 
+        \node[main] (1) {$1$}; 
+        \node[main] (2) [above right of=1] {$2$}; 
+        \node[main] (3) [below right of=1] {$3$}; 
+        \node[main] (4) [below right of=3] {$4$}; 
+        \node[main] (5) [below right of=2] {$5$}; 
+        \node[main] (6) [below right of=5] {$6$}; 
+        \draw (1) -- (2); 
+        \draw (1) -- (3); 
+        \draw (3) -- (4);
+        \draw (5) -- (4);
+        \draw (2) -- (5);
+        \draw (1) -- (6);
+        \draw (3) -- (6);
+        \draw (5) -- (6);
+        \draw (4) -- (2);
+        \end{tikzpicture} 
+    \end{center}
+    \item Not connected.
+    \begin{center}
+      \begin{tikzpicture}[node distance={15mm}, thick, main/.style = {draw, circle}] 
+        \node[main] (1) {$1$}; 
+        \node[main] (2) [above right of=1] {$2$}; 
+        \node[main] (3) [above of=4] {$3$}; 
+        \node[main] (4) [below right of=3] {$4$}; 
+        \node[main] (5) [below left of=3] {$5$}; 
+        \node[main] (6) [below left of=4] {$6$};
+        \draw (1) to [out=180,in=270,looseness=5] (1); 
+        \draw (2) to [out=0,in=90,looseness=5] (2); 
+        \draw (1) -- (2);
+        \draw (3) -- (4);
+        \draw (3) -- (5);
+        \draw (6) -- (5);
+        \draw (6) -- (4);
+        \draw (6) -- (3);
+        \draw (5) -- (4);
+        \end{tikzpicture} 
+    \end{center}
+  \end{enumerate}~\\
+  \item A graph is called simple if it has no multiple edges or loops. Draw five different connected, simple, undirected graphs with four vertices.\\
+  1.
+  \begin{center}
+    \begin{tikzpicture}[node distance={15mm}, thick, main/.style = {draw, circle}] 
+      \node[main] (1) {$1$}; 
+      \node[main] (2) [above right of=1] {$2$}; 
+      \node[main] (3) [below right of=2] {$3$}; 
+      \node[main] (4) [below of=3] {$4$}; 
+      \draw (1) -- (2);
+      \draw (1) -- (4);
+      \draw (3) -- (4);
+      \end{tikzpicture} 
+  \end{center}
+  \newpage
+  2.
+  \begin{center}
+    \begin{tikzpicture}[node distance={15mm}, thick, main/.style = {draw, circle}] 
+      \node[main] (1) {$1$}; 
+      \node[main] (2) [above right of=1] {$2$}; 
+      \node[main] (3) [below right of=2] {$3$}; 
+      \node[main] (4) [above of=3] {$4$}; 
+      \draw (1) -- (2);
+      \draw (3) -- (4);
+      \draw (2) -- (3);
+      \draw (2) -- (4);
+      \draw (1) to [out=180,in=0,looseness=1.5] (4);
+      \end{tikzpicture} 
+  \end{center}
 
+  
 \end{enumerate}
 
 \end{document}
