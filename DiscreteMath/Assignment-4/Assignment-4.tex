@@ -7,11 +7,12 @@
 
 \usepackage{amsmath,amsfonts,amssymb,bm,graphics,pgfplots,framed,dsfont,tikz}
 \usepackage[scale=0.75,top=1cm,bottom=3cm]{geometry}
+\usepackage[dvipsnames]{xcolor}
 
 \begin{document}
 
 \textbf{Minh Anh Nguyen }\\
-\textbf{Your class\hfill Your Excersice}
+\textbf{Discrete Mathematics\hfill Assignment-4}
 
 \hrulefill
 
@@ -168,11 +169,98 @@ Section 2.1:
       \draw (3) -- (4);
       \draw (2) -- (3);
       \draw (2) -- (4);
-      \draw (1) to [out=180,in=0,looseness=1.5] (4);
+      \draw (1) to [out=180,in=90,looseness=1.5] (4);
       \end{tikzpicture} 
   \end{center}
+  3.
+  \begin{center}
+    \begin{tikzpicture}[node distance={15mm}, thick, main/.style = {draw, circle}] 
+      \node[main] (1) {$1$}; 
+      \node[main] (2) [above right of=1] {$2$}; 
+      \node[main] (3) [below right of=2] {$3$}; 
+      \node[main] (4) [below right of=1] {$4$}; 
+      \draw (1) -- (2);
+      \draw (2) -- (3);
+      \draw (3) -- (4);
+      \draw (1) -- (4);
+      \end{tikzpicture} 
+  \end{center}
+  4.
+  \begin{center}
+    \begin{tikzpicture}[node distance={15mm}, thick, main/.style = {draw, circle}] 
+      \node[main] (1) {$1$}; 
+      \node[main] (2) [right of=1] {$2$}; 
+      \node[main] (3) [right of=2] {$3$}; 
+      \node[main] (4) [right of=3] {$4$}; 
+      \draw (1) -- (2);
+      \draw (2) -- (3);
+      \draw (3) -- (4);
+      \end{tikzpicture} 
+  \end{center}
+  5.
+  \begin{center}
+    \begin{tikzpicture}[node distance={15mm}, thick, main/.style = {draw, circle}] 
+      \node[main] (1) {$1$}; 
+      \node[main] (2) [below of=1] {$2$}; 
+      \node[main] (3) [right of=1] {$3$}; 
+      \node[main] (4) [below right of=3] {$4$}; 
+      \draw (1) -- (2);
+      \draw (1) -- (3);
+      \draw (3) -- (4);
+      \end{tikzpicture} 
+  \end{center}
+  \item An undirected graph is called \textit{complete} if every vertex shares an edge with every other vertex. Draw a complete graph on five vertices. How many edges does it have?\\
+  \begin{center}
+    \begin{tikzpicture}[node distance={15mm}, thick, main/.style = {draw, circle}] 
+      \node[main] (1) {$1$}; 
+      \node[main] (2) [below left of=1] {$2$}; 
+      \node[main] (3) [right of=1] {$3$}; 
+      \node[main] (4) [below of=3] {$4$}; 
+      \node[main] (5) [below of=1] {$5$}; 
+      \draw (1) -- (2);
+      \draw (1) -- (3);
+      \draw (3) -- (4);
+      \draw (2) -- (5);
+      \draw (2) to [out=270, in=270, looseness=1.5] (4);      
+      \draw (4) -- (5);
+      \draw (1) -- (4);
+      \draw (1) -- (5);
+      \draw (2) -- (3);
+      \draw (5) -- (3);
+      \end{tikzpicture} 
+  \end{center}
+  It has 10 edges.
+\end{enumerate}
 
-  
+\newpage
+  Section 2.2:
+\begin{enumerate}
+  \item Draw Venn diagrams to illustrate De Morgan’s laws for sets (Theorem 2.1).\\~\\
+    1. $(A \cup B)' =  A' \cap B'$
+    \begin{center}
+      \begin{tikzpicture}[thick,
+        set/.style = {circle,
+          minimum size = 3cm,
+          fill=MidnightBlue!50}]
+      
+      % Set A
+      \node[set,label={135:$A$}] (A) at (0,0) {};
+      
+      % Set B
+      \node[set,label={45:$B$}] (B) at (1.8,0) {};
+      
+
+      
+      \begin{scope}
+        \clip (0,0) circle(1.5cm);
+        \clip (1.8,0) circle(1.5cm);
+      \end{scope}
+      
+      \draw (0,0) circle(1.5cm);
+      \draw (1.8,0) circle(1.5cm);
+            
+      \end{tikzpicture}
+    \end{center}
 \end{enumerate}
 
 \end{document}
