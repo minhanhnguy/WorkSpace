@@ -252,9 +252,82 @@ Section 3.3:
         \end{enumerate}
         \item Find the local maximum and minimum values of $f$ using both the First and Second Derivative Tests. Which method do you prefer?
             \[f(x) = 1 + 3x^2 - 2x^3\]
+        Let:
             \[f'(x) = 6x - 6x^2\]
+            \[6x - 6x^2 = 0\]
+            \[x = 0 \text{ or } x = 1\]
+        Let:
             \[f''(x) = 6 - 12x\]
-        The First Derivative Test:
+        The First Derivative Test:\\
+            f'(x) change from negative to positive at x = 0. Therefore, we have a local minimum at x = 0.\\
+            f'(x) change from positive to negative at x = 1. Therefore, we have a local maximum at x = 1.\\
+        The Second Derivative Test:\\
+            $f'(x) = 0$ at x = 0 and $f''(0) > 0$. Therefore, we have a local minimum at x = 0.\\
+            $f'(x) = 0$ at x = 1 and $f''(1) < 0$. Therefore, we have a local maximum at x = 1.\\
+        I personally prefer the first one.
+        \setcounter{enumi}{28}
+        \newpage
+        \item Sketch the graph of a function that satisfies all of the given conditions.
+        \begin{enumerate}
+            \item $f'(x) > 0$ and $f''(x) < 0$ for all x.
+            \begin{figure}[!h]      
+                \begin{framed}
+                    \centering  
+                \begin{tikzpicture} 
+                \begin{axis}[
+                    axis lines = center,
+                    xlabel = \(x\),
+                    ylabel = {\(f(x)\)},
+                    xmin=-5, xmax=5,
+                    ymin=-5, ymax=5,
+                ]
+                
+                %\draw[red, fill=white] (110,200) circle(1.3pt);
+                %Below the red parabola is defined
+                \addplot [
+                    domain=-10:10, 
+                    samples=200, 
+                    color=red,
+                    ]
+                    {log2(x+5)};
+                %Here the blue parabola is defined
+        
+                \end{axis}
+                \end{tikzpicture}
+                \end{framed}
+                \end{figure}
+            \item $f'(x) < 0$ and $f''(x) > 0$ for all x.
+            \begin{figure}[!h]      
+                \begin{framed}
+                    \centering  
+                \begin{tikzpicture} 
+                \begin{axis}[
+                    axis lines = center,
+                    xlabel = \(x\),
+                    ylabel = {\(f(x)\)},
+                    xmin=-5, xmax=5,
+                    ymin=-5, ymax=5,
+                ]
+                
+                %\draw[red, fill=white] (110,200) circle(1.3pt);
+                %Below the red parabola is defined
+                \addplot [
+                    domain=-10:10, 
+                    samples=200, 
+                    color=red,
+                    ]
+                    {-log2(x+5)};
+                %Here the blue parabola is defined
+        
+                \end{axis}
+                \end{tikzpicture}
+                \end{framed}
+                \end{figure}
+        \end{enumerate}
+        \setcounter{enumi}{30}
+        \item Sketch the graph of a function that satisfies all of the given conditions.\\
+        $f'(0) = f'(2) = f'(4) = 0$, $f'(x) > 0$ if $x < 0$ or $2 < x < 4$, $f'(x) < 0$ if $0 < x < 2$ or $x > 4$, $f''(x) > 0$ if $1 < x < 3$, $f''(x) < 0$ if $x < 1$ or $x > 3$.
+
 
 \end{enumerate}
 
