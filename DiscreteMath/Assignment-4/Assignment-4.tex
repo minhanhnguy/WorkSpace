@@ -268,7 +268,6 @@ Section 2.1:
         \clip (1,0) circle (1);
         \fill[white] (0,0) circle (1);
         \endscope
-    
         
         % outline of both circles
         \draw (0,0) circle (1)
@@ -278,18 +277,22 @@ Section 2.1:
   \item Draw a Venn diagram to show the region $A \cap B'$. This region is also denoted $A \setminus B$, and is called the set difference.
     \begin{center}
       \begin{tikzpicture}
-        \filldraw[fill=gray] (-2,-2) rectangle (3,2);
+        \filldraw[fill=white] (-2,-2) rectangle (3,2);
         
         % A \cap B (First circle)
         \scope
         \clip (0,0) circle (2);
-        \fill[white] (1,0) circle (1);
+        \fill[gray] (0,0) circle (1);
         \endscope
     
+        \scope
+        \clip (0,0) circle (2);
+        \fill[white] (1,0) circle (1);
+        \endscope
         
         % outline of both circles
         \draw (0,0) circle (1)
-              (1,0) circle (1);
+           (1,0) circle (1);
       \end{tikzpicture}
     \end{center}
   \item Let $A = \{2, 3, 4\}$, $B = \{3, 4, 5, 6\}$, and suppose the universal set is $U = \{1, 2, …, 9\}$. List all the elements in the following sets.
@@ -307,7 +310,7 @@ Section 2.1:
   \item Consider the following sets. The universal set for this problem is \textbf{N}.
     \[\text{A = The set of all even numbers.}\]
     \[\text{B = The set of all prime numbers.}\]
-    \[\text{}\]
+    \[\text{C = }\]
 \end{enumerate}
 
 \end{document}
