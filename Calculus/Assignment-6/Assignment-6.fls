@@ -261,6 +261,13 @@ INPUT C:\Users\Tony Nguyen\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfon
 INPUT C:\Users\Tony Nguyen\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmbsy6.tfm
 OUTPUT Assignment-6.pdf
 INPUT C:\Users\Tony Nguyen\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
+INPUT .\img\img-0.png
+INPUT .\img\img-0.png
+INPUT .\img\img-0.png
+INPUT .\img\img-0.png
+INPUT .\img\img-0.png
+INPUT .\img\img-0.png
+INPUT .\img\img-0.png
 INPUT Assignment-6.aux
 INPUT C:\Users\Tony Nguyen\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx12.pfb
 INPUT C:\Users\Tony Nguyen\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx12.pfb

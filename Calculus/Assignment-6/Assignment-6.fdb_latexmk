@@ -1,7 +1,7 @@
 # Fdb version 4
-["pdflatex"] 1727765796.01298 "c:/Users/Tony Nguyen/Documents/WorkSpace/Calculus/Assignment-6/Assignment-6.tex" "Assignment-6.pdf" "Assignment-6" 1727765797.74221 0
-  "Assignment-6.aux" 1727765797 32 044b7f8fc9779af7531264e0c5c84b6d "pdflatex"
-  "Assignment-6.tex" 1727765794 3247 403731be8aada61b92cd98c5764d2a5f ""
+["pdflatex"] 1727833335.02532 "c:/Users/Tony Nguyen/Documents/WorkSpace/Calculus/Assignment-6/Assignment-6.tex" "Assignment-6.pdf" "Assignment-6" 1727833337.1361 0
+  "Assignment-6.aux" 1727833336 32 ab05033ccbb38b00a31b200ccedf8001 "pdflatex"
+  "Assignment-6.tex" 1727833334 4855 3569791a2e79de7bb36199f84fac70c8 ""
   "C:/Users/Tony Nguyen/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1725260324 81068 299f700eb05b1217173e62b88b513bd0 ""
   "C:/Users/Tony Nguyen/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1725088633 24268242 d508b6b1df2614a2d0e731768ba6689c ""
   "C:/Users/Tony Nguyen/AppData/Local/Programs/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmbsy6.tfm" 1233951848 1124 14ccf5552bc7f77ca02a8a402bea8bfb ""
@@ -172,7 +172,8 @@
   "C:/Users/Tony Nguyen/AppData/Local/Programs/MiKTeX/tex/latex/pgfplots/pgfplots.sty" 1621075461 4904 ee78b44e85d6fccf08cd99370557481e ""
   "C:/Users/Tony Nguyen/AppData/Local/Programs/MiKTeX/tex/latex/tools/bm.sty" 1718356376 13236 1aba485b47e3c79a47dc0906cc971820 ""
   "C:/Users/Tony Nguyen/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1700127522 55487 80a65caedd3722f4c20a14a69e785d8f ""
-  "c:/Users/Tony Nguyen/Documents/WorkSpace/Calculus/Assignment-6/Assignment-6.tex" 1727765794 3247 403731be8aada61b92cd98c5764d2a5f ""
+  "c:/Users/Tony Nguyen/Documents/WorkSpace/Calculus/Assignment-6/Assignment-6.tex" 1727833334 4855 3569791a2e79de7bb36199f84fac70c8 ""
+  "img/img-0.png" 1727831308 2386 c32db6414e3ee12ebea5ae78600a40eb ""
   (generated)
   "Assignment-6.aux"
   "Assignment-6.log"

@@ -79,4 +79,31 @@ Section 3.1:
         The absolute maximum value of $f$ is ${\displaystyle \frac{3\sqrt{3}}{2}}$ and the absolute minimum value of $f$ is 0.
 \end{enumerate}
 
+\newpage
+Section 3.2:
+\begin{enumerate}
+    \setcounter{enumi}{6}
+    \item The graph of a function $f$ is shown. Does $f$ satisfy the hypotheses of the Mean Value Theorem on the interval $[0,5]$? If so, find a value $c$ that satisfies the conclusion of the Mean Value Theorem on that interval.
+        \begin{center}
+            \includegraphics{img/img-0.png}    
+        \end{center}    
+    Based on the graph, $f$ is both continuous on the interval $[0,5]$ and differentiable on the interval $(0,5)$.
+        \[f'(c) = \frac{f(5) - f(0)}{5-0}\]
+        \[f'(c) = \frac{3 - 1}{5}\]
+        \[f'(c) = \frac{2}{5}\]
+    Based on the graph:
+        \[c \approx 4\]
+    \setcounter{enumi}{10}
+    \item Verify that the function satisfies the three hypotheses of Rolle’s Theorem on the given interval. Then find all numbers $c$ that satisfy the conclusion of Rolle’s Theorem.
+        \[f(x) = \sin (x/2) \text{, }[\frac{\pi}{2},\frac{3\pi}{2}]\]
+    Because $f(x)$ is a trigonometric function, $f(x)$ is both continuous on the interval $[\frac{\pi}{2},\frac{3\pi}{2}]$ and differentiable on the interval $(\frac{\pi}{2},\frac{3\pi}{2})$.
+        \[f(\frac{\pi}{2}) = \sin (\pi/4) = \frac{\sqrt{2}}{2}\]
+        \[f(\frac{3\pi}{2}) = \sin (3\pi/4) = \frac{\sqrt{2}}{2}\]
+    Hence, $f(\frac{\pi}{2}) = f(\frac{3\pi}{2}) = \frac{\sqrt{2}}{2}$. Therefore, there exists $c$ in $(\frac{\pi}{2},\frac{3\pi}{2})$ such as:
+        \[f'(c) = 0\]
+        \[\frac{1}{2} \cos(c/2) = 0\]
+        \[\cos(c/2) = 0\]
+        \[c/2 = \pi/2 + k\pi \text{ with k is a integer.}\]
+\end{enumerate}
+
 \end{document}
