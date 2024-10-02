@@ -301,16 +301,151 @@ Section 2.1:
     \item $(A \cap B) \times A = \{3,4\} \times A = \{(3,2),(3,3)(3,4),(4,2),(4,3),(4,4)\}$ 
     \item $P(B\setminus A) = \{\phi, \{4\}, \{5\}, \{4,5\}\}$
   \end{enumerate}
+  \newpage
   \item Let the following sets be given.
-    \[\text{G = the set of all good citizen.}\]
-    \[\text{C = the set of all charitable people.}\]
-    \[\text{P = the set of all polite people.}\]
+  \begin{center}
+    C = the set of all charitable people.\\
+    G = the set of all good citizen.\\
+    P = the set of all polite people.\\
+  \end{center}
     Write the statement, “Everyone who is charitable and polite is a good citizen,” in the language of set theory.
     \[C \cap P \subseteq G\]
   \item Consider the following sets. The universal set for this problem is \textbf{N}.
+<<<<<<< HEAD
     \[\text{A = The set of all even numbers.}\]
     \[\text{B = The set of all prime numbers.}\]
     \[\text{C = }\]
+=======
+  \begin{center}
+    A = The set of all even numbers.\\
+    B = The set of all prime numbers.\\
+    C = The set of all perfect squares.\\
+    D = The set of all multiples of 10.\\
+  \end{center}
+  Using only the symbols 3, $A$, $B$, $C$, $D$, $N$, $\in$, $\subseteq$, $=$, $\neq$, $\cap$, $\cup$, $x$, $'$, $\phi$, (, and ), write the following statements in set notation.
+  \begin{enumerate}
+    \item None of the perfect squares are prime number.
+      \[(C \cap B) = \{\phi\}\]
+    \item All multiples of 10 are even numbers.
+      \[D \subseteq A\]
+    \item The number 3 is a prime number that is not even.
+      \[3 \in (B \cap A')\]
+    \item If you take all the prime numbers, all the even numbers, all the perfect squares, and all the multiples of 10, you still won’t have all the natural numbers.
+      \[(B \cup A \cup C \cup D) \neq N\]
+  \end{enumerate}
+  \item Consider the following sets. The universal set U for this problem is the set of all residents of India.
+  \begin{center}
+    A = the set of all English speakers.\\
+    B = the set of all Hindu speakers.\\
+    C = the set of all Urdu speakers.\\
+  \end{center}
+  Express the following sets in the symbols of set theory.
+  \begin{enumerate}
+    \item Residents of India who speak English, Hindi, and Urdu.
+      \[A \cap B \cap C\]
+    \item Residents of India who do not speak English, Hindi, or Urdu.
+      \[(A \cup B \cup C)'\]
+    \item Residents of India who speak English, but not Hindi or Urdu.
+      \[A \cap (B \cup C)'\]
+  \end{enumerate}
+
+  \newpage 
+  \item Consider the following sets. The universal set for this problem is the set of all quadrilaterals.
+  \begin{center}
+    A = The set of all parallelograms.\\
+    B = The set of all rhombuses.\\
+    C = The set of all rectangles.\\
+    D = The set of all trapezoids.\\
+  \end{center}
+  Using only the symbols x, $A$, $B$, $C$, $D$, $\in$, $\subseteq$, $=$, $\neq$, $\cap$, $\cup$, $\times$, $'$, $\phi$, (, and ), write the following statements in set notation.
+  \begin{enumerate}
+    \item The polygon x is a parallelogram, but it isn’t a rhombus.
+      \[x \in (A \cap B')\]
+    \item There are other quadrilaterals besides parallelograms and trapezoids.
+      \[(A \cup D)' \neq \phi\]
+    \item Both rectangles and rhombuses are types of parallelograms.
+      \[(C \cup B) \subseteq A\]
+  \end{enumerate}
+  
+  \item Let the following sets be given. The universal set for this problem is the set of all students at some university.
+  \begin{center}
+    F = the set of all freshmen.\\
+    S = the set of all seniors.\\
+    M = the set of all math majors.\\
+    C = the set of all CS majors.\\
+  \end{center}
+  \begin{enumerate}
+    \item Using only the symbols F, S, M, C, $||$, $\cap$, $\cup$, $'$, and $>$, translate the following statement into the language of set theory.
+    \begin{center}
+      There are more freshmen who aren’t math majors than there are senior CS majors.
+    \end{center}
+      \[(F \cap M') > (S \cap C)\]
+    \item Translate the following statement in set theory into everyday English.
+      \[(F \cap M) \subseteq C\]
+      All freshmen in Math Major are also CS major.
+  \end{enumerate}
+  
+  \item Let E be the set of even numbers, and let P be the set of prime numbers. Use set notation to express the following statement: “2 is the only even prime number.”
+  \[\{2\} = (E \cap P)\]
+
+  \newpage 
+  \item Two sets are called disjoint if they have no elements in common, i.e., if their intersection is the empty set. Prove that finite sets A and B are disjoint if and only if $|A| + |B| = |A \cup B|$. Use the definition of $\phi$ and the inclusion–exclusion principle (Equation 2.2.3) in your proof.
+    \[|A \cup B| = |A| + |B| - |A \cap B|\]
+    \[\text{Because the intersection of A and B is an empty set.}\]
+    \[|A \cup B| = |A| + |B| - |\phi|\]
+    \[|A \cup B| = |A| + |B| - 0\]
+    \[|A \cup B| = |A| + |B|\]
+  \item In a class of 40 students, everyone has either a pierced nose or a pierced ear. The professor asks everyone with a pierced nose to raise their hands. Nine hands go up. Then the professor asked everyone with a pierced ear to do likewise. This time there are 34 hands raised. How many students have piercings both on their ears and their noses?\\~\\
+  The number of student have piercings both on their ears and noses is:
+  \[34 + 9 - 40 = 3\]
+  \item How many integers in the set $\{n \in Z | 1 \leq n \leq 700\}$ are divisible by 2 or 7?\\~\\
+  The number of integers in the set are divisible by 2 is:
+    \[\lfloor\frac{700}{2}\rfloor = 350\]
+  The number of integers in the set are divisible by 7 is:
+    \[\lfloor\frac{700}{7}\rfloor = 100\]
+  The number of integers in the set are divisible by both 2 and 7 is:
+    \[\lfloor\frac{700}{14}\rfloor = 50\]
+  Hence, the number of integers in the set divisible by both 2 or 7 is:
+    \[350 + 100 - 50 = 400\]
+
+  \item Let A, B, and C be sets, and let $X = A \cup B$
+  \begin{enumerate}
+    \item Write $|X \cap C|$ in terms of $|A \cap C|$, $|B \cap C|$, and $|A \cap B \cap C|$. 
+    \[|X \cap C| = |A \cap C| + |B \cap C| - |A \cap B \cap C|\]
+    \item Write $|A \cup B \cup C|$ in terms of A, B, C, $|A \cap B|$, $|A \cap C|$, $|B \cap C|$, and $|A \cap B \cap C|$. (The result is the inclusion–exclusion principle for three sets.)
+    \[|A \cup B \cup C| = |A| + |B| + |C| - |A \cap B| - |A \cap C| - |B \cap C| + |A \cap B \cap C|\]
+  \end{enumerate}
+  \item How many integers in the set $\{n \in Z | 1 \leq n \leq 700\}$ are divisible by 2, 5, or 7?
+  The number of integers in the set are divisible by 2 is:
+    \[\lfloor \frac{700}{2} \rfloor = 350\]
+  The number of integers in the set are divisible by 5 is:
+    \[\lfloor \frac{700}{5} \rfloor = 140\]
+  The number of integers in the set are divisible by 7 is:
+    \[\lfloor \frac{700}{7} \rfloor = 100\]
+  The number of integers in the set are divisible by 2 and 5 is:
+    \[\lfloor \frac{700}{10} \rfloor = 70\]
+  The number of integers in the set are divisible by 2 and 7 is:
+    \[\lfloor \frac{700}{14} \rfloor = 50\]
+  The number of integers in the set are divisible by 5 and 7 is:
+    \[\lfloor \frac{700}{35} \rfloor = 20\]
+  The number of integers in the set are divisible by 2, 5 and 7 is:
+    \[\lfloor \frac{700}{70} \rfloor = 10\]
+  The number of integers in the set are divisible by 2, 5 or 7 is:
+    \[350 + 140 + 100 - 70 - 50 - 20 + 10 = 460\]
+
+  \item Write down all elements of $(\{1,2,3\} \cap \{2,3,4,5\}) \cup \{6,7\}$.
+  \[(\{1,2,3\} \cap \{2,3,4,5\}) \cup \{6,7\} = \{2,3\} \cup \{6,7\} = \{2,3,6,7\}\]
+  \item Write down all elements of $\{A, B, C\} \times \{H, K\}$.
+  \[\{A, B, C\} \times \{H, K\} = \{(A,H),(A,K),(B,H),(B,K),(C,H),(C,K)\}\]
+  \item Let S = {a, b, c}. Write down all the elements in the following sets.
+  \begin{enumerate}
+    \item $S \times S$
+      \[S \times S = \{(a,a),(a,b),(a,c),(b,a),(b,b),(b,c),(c,a),(c,b),(c,c)\}\]
+    \item $P(S)$
+      \[P(S) = \{\phi, \{a\}, \{b\}, \{c\}, \{a,b\}, \{a,c\}, \{b,c\}, \{a,b,c\}\}\]
+  \end{enumerate}
+
+>>>>>>> 087a1f4b94557fe0b84fbe679f308a85341f7d61
 \end{enumerate}
 
 \end{document}
