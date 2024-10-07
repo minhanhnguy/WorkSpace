@@ -1,7 +1,7 @@
-PWD c:\Users\Anh Minh\Documents\WorkSpace\Calculus\Assignment-2
+PWD c:\Users\Anh Minh\Documents\WorkSpace\DiscreteMath\Assignment-5
 INPUT C:\Users\Anh Minh\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT c:\Users\Anh Minh\Documents\WorkSpace\Calculus\Assignment-2\Assignment-2.tex
-OUTPUT Assignment-2.log
+INPUT c:\Users\Anh Minh\Documents\WorkSpace\DiscreteMath\Assignment-5\assignment-5.tex
+OUTPUT assignment-5.log
 INPUT C:\Users\Anh Minh\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
 INPUT C:\Users\Anh Minh\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
 INPUT C:\Users\Anh Minh\AppData\Local\Programs\MiKTeX\tex\latex\base\size12.clo
@@ -24,10 +24,6 @@ INPUT C:\Users\Anh Minh\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\amssymb
 INPUT C:\Users\Anh Minh\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\amssymb.sty
 INPUT C:\Users\Anh Minh\AppData\Local\Programs\MiKTeX\tex\latex\tools\bm.sty
 INPUT C:\Users\Anh Minh\AppData\Local\Programs\MiKTeX\tex\latex\tools\bm.sty
-INPUT C:\Users\Anh Minh\AppData\Local\Programs\MiKTeX\tex\latex\graphics\graphicx.sty
-INPUT C:\Users\Anh Minh\AppData\Local\Programs\MiKTeX\tex\latex\graphics\graphicx.sty
-INPUT C:\Users\Anh Minh\AppData\Local\Programs\MiKTeX\tex\latex\graphics\keyval.sty
-INPUT C:\Users\Anh Minh\AppData\Local\Programs\MiKTeX\tex\latex\graphics\keyval.sty
 INPUT C:\Users\Anh Minh\AppData\Local\Programs\MiKTeX\tex\latex\graphics\graphics.sty
 INPUT C:\Users\Anh Minh\AppData\Local\Programs\MiKTeX\tex\latex\graphics\graphics.sty
 INPUT C:\Users\Anh Minh\AppData\Local\Programs\MiKTeX\tex\latex\graphics\trig.sty
@@ -43,6 +39,10 @@ INPUT C:\Users\Anh Minh\AppData\Local\Programs\MiKTeX\tex\latex\pgfplots\pgfplot
 INPUT C:\Users\Anh Minh\AppData\Local\Programs\MiKTeX\tex\generic\pgfplots\pgfplots.revision.tex
 INPUT C:\Users\Anh Minh\AppData\Local\Programs\MiKTeX\tex\generic\pgfplots\pgfplots.revision.tex
 INPUT C:\Users\Anh Minh\AppData\Local\Programs\MiKTeX\tex\generic\pgfplots\pgfplots.revision.tex
+INPUT C:\Users\Anh Minh\AppData\Local\Programs\MiKTeX\tex\latex\graphics\graphicx.sty
+INPUT C:\Users\Anh Minh\AppData\Local\Programs\MiKTeX\tex\latex\graphics\graphicx.sty
+INPUT C:\Users\Anh Minh\AppData\Local\Programs\MiKTeX\tex\latex\graphics\keyval.sty
+INPUT C:\Users\Anh Minh\AppData\Local\Programs\MiKTeX\tex\latex\graphics\keyval.sty
 INPUT C:\Users\Anh Minh\AppData\Local\Programs\MiKTeX\tex\generic\pgf\systemlayer\pgfsys-luatex.def
 INPUT C:\Users\Anh Minh\AppData\Local\Programs\MiKTeX\tex\generic\pgf\systemlayer\pgfsys-luatex.def
 INPUT C:\Users\Anh Minh\AppData\Local\Programs\MiKTeX\tex\latex\pgf\frontendlayer\tikz.sty
@@ -215,10 +215,10 @@ INPUT C:\Users\Anh Minh\AppData\Local\Programs\MiKTeX\tex\latex\geometry\geometr
 INPUT C:\Users\Anh Minh\AppData\Local\Programs\MiKTeX\tex\latex\geometry\geometry.cfg
 INPUT C:\Users\Anh Minh\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
 INPUT C:\Users\Anh Minh\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
-INPUT .\Assignment-2.aux
-INPUT .\Assignment-2.aux
-INPUT Assignment-2.aux
-OUTPUT Assignment-2.aux
+INPUT .\assignment-5.aux
+INPUT .\assignment-5.aux
+INPUT assignment-5.aux
+OUTPUT assignment-5.aux
 INPUT C:\Users\Anh Minh\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Users\Anh Minh\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Users\Anh Minh\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
@@ -228,97 +228,10 @@ INPUT C:\Users\Anh Minh\AppData\Local\Programs\MiKTeX\tex\latex\00miktex\epstopd
 INPUT C:\Users\Anh Minh\AppData\Local\Programs\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
 INPUT C:\Users\Anh Minh\AppData\Local\Programs\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
 INPUT C:\Users\Anh Minh\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
-INPUT C:\Users\Anh Minh\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr8.tfm
-INPUT C:\Users\Anh Minh\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr6.tfm
-INPUT C:\Users\Anh Minh\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi12.tfm
-INPUT C:\Users\Anh Minh\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi8.tfm
-INPUT C:\Users\Anh Minh\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi6.tfm
-INPUT C:\Users\Anh Minh\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy10.tfm
-INPUT C:\Users\Anh Minh\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy8.tfm
-INPUT C:\Users\Anh Minh\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy6.tfm
-INPUT C:\Users\Anh Minh\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmex10.tfm
-INPUT C:\Users\Anh Minh\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex8.tfm
-INPUT C:\Users\Anh Minh\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
-INPUT C:\Users\Anh Minh\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\umsa.fd
-INPUT C:\Users\Anh Minh\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\umsa.fd
-INPUT C:\Users\Anh Minh\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\umsa.fd
-INPUT C:\Users\Anh Minh\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
-INPUT C:\Users\Anh Minh\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
-INPUT C:\Users\Anh Minh\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam7.tfm
-INPUT C:\Users\Anh Minh\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\umsb.fd
-INPUT C:\Users\Anh Minh\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\umsb.fd
-INPUT C:\Users\Anh Minh\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\umsb.fd
-INPUT C:\Users\Anh Minh\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
-INPUT C:\Users\Anh Minh\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
-INPUT C:\Users\Anh Minh\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
-INPUT C:\Users\Anh Minh\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx8.tfm
-INPUT C:\Users\Anh Minh\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx6.tfm
-INPUT C:\Users\Anh Minh\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmib10.tfm
-INPUT C:\Users\Anh Minh\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmmib8.tfm
-INPUT C:\Users\Anh Minh\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmmib6.tfm
-INPUT C:\Users\Anh Minh\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbsy10.tfm
-INPUT C:\Users\Anh Minh\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmbsy8.tfm
-INPUT C:\Users\Anh Minh\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmbsy6.tfm
-INPUT .\Images\Image-0.png
-INPUT .\Images\Image-0.png
-INPUT .\Images\Image-0.png
-INPUT .\Images\Image-0.png
-OUTPUT Assignment-2.pdf
-INPUT .\Images\Image-0.png
-INPUT .\Images\Image-0.png
-INPUT .\Images\Image-0.png
+OUTPUT assignment-5.pdf
 INPUT C:\Users\Anh Minh\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
-INPUT .\Images\Image-1.png
-INPUT .\Images\Image-1.png
-INPUT .\Images\Image-1.png
-INPUT .\Images\Image-1.png
-INPUT .\Images\Image-1.png
-INPUT .\Images\Image-1.png
-INPUT .\Images\Image-1.png
-INPUT .\Images\Image-2.png
-INPUT .\Images\Image-2.png
-INPUT .\Images\Image-2.png
-INPUT .\Images\Image-2.png
-INPUT .\Images\Image-2.png
-INPUT .\Images\Image-2.png
-INPUT .\Images\Image-2.png
-INPUT .\Images\Image-3.png
-INPUT .\Images\Image-3.png
-INPUT .\Images\Image-3.png
-INPUT .\Images\Image-3.png
-INPUT .\Images\Image-3.png
-INPUT .\Images\Image-3.png
-INPUT .\Images\Image-3.png
-INPUT C:\Users\Anh Minh\AppData\Local\Programs\MiKTeX\tex\latex\doublestroke\udsrom.fd
-INPUT C:\Users\Anh Minh\AppData\Local\Programs\MiKTeX\tex\latex\doublestroke\udsrom.fd
-INPUT C:\Users\Anh Minh\AppData\Local\Programs\MiKTeX\tex\latex\doublestroke\udsrom.fd
-INPUT C:\Users\Anh Minh\AppData\Local\Programs\MiKTeX\fonts\tfm\public\doublestroke\dsrom12.tfm
-INPUT C:\Users\Anh Minh\AppData\Local\Programs\MiKTeX\fonts\tfm\public\doublestroke\dsrom8.tfm
-INPUT C:\Users\Anh Minh\AppData\Local\Programs\MiKTeX\fonts\tfm\public\doublestroke\dsrom8.tfm
-INPUT Assignment-2.aux
+INPUT assignment-5.aux
 INPUT C:\Users\Anh Minh\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx12.pfb
 INPUT C:\Users\Anh Minh\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx12.pfb
-INPUT C:\Users\Anh Minh\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmex10.pfb
-INPUT C:\Users\Anh Minh\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmex10.pfb
-INPUT C:\Users\Anh Minh\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi12.pfb
-INPUT C:\Users\Anh Minh\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi12.pfb
-INPUT C:\Users\Anh Minh\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi6.pfb
-INPUT C:\Users\Anh Minh\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi6.pfb
-INPUT C:\Users\Anh Minh\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi8.pfb
-INPUT C:\Users\Anh Minh\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi8.pfb
 INPUT C:\Users\Anh Minh\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr12.pfb
 INPUT C:\Users\Anh Minh\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr12.pfb
-INPUT C:\Users\Anh Minh\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr6.pfb
-INPUT C:\Users\Anh Minh\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr6.pfb
-INPUT C:\Users\Anh Minh\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr8.pfb
-INPUT C:\Users\Anh Minh\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr8.pfb
-INPUT C:\Users\Anh Minh\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb
-INPUT C:\Users\Anh Minh\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb
-INPUT C:\Users\Anh Minh\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy6.pfb
-INPUT C:\Users\Anh Minh\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy6.pfb
-INPUT C:\Users\Anh Minh\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy8.pfb
-INPUT C:\Users\Anh Minh\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy8.pfb
-INPUT C:\Users\Anh Minh\AppData\Local\Programs\MiKTeX\fonts\type1\public\doublestroke\dsrom12.pfb
-INPUT C:\Users\Anh Minh\AppData\Local\Programs\MiKTeX\fonts\type1\public\doublestroke\dsrom12.pfb
-INPUT C:\Users\Anh Minh\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\symbols\msam10.pfb
-INPUT C:\Users\Anh Minh\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\symbols\msam10.pfb

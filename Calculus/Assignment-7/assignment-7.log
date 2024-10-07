@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.8.18)  6 OCT 2024 00:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.8.18)  6 OCT 2024 00:52
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"c:/Users/Anh Minh/Documents/WorkSpace/Calculus/Assignment-2/Assignment-2.tex"
-(c:/Users/Anh Minh/Documents/WorkSpace/Calculus/Assignment-2/Assignment-2.tex
+**"c:/Users/Anh Minh/Documents/WorkSpace/Calculus/Assignment-7/assignment-7.tex"
+(c:/Users/Anh Minh/Documents/WorkSpace/Calculus/Assignment-7/assignment-7.tex
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-07-20>
 (C:\Users\Anh Minh\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
@@ -105,11 +105,6 @@ Package bm Info: No bold for \OMX/cmex/m/n, using \pmb.
 Package bm Info: No bold for \U/msa/m/n, using \pmb.
 Package bm Info: No bold for \U/msb/m/n, using \pmb.
 LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 149.
-) (C:\Users\Anh Minh\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
-Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
- (C:\Users\Anh Minh\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
-Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
-\KV@toks@=\toks22
 ) (C:\Users\Anh Minh\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
 Package: graphics 2024/05/23 v1.4g Standard LaTeX Graphics (DPC,SPQR)
  (C:\Users\Anh Minh\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
@@ -120,12 +115,17 @@ File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 Package graphics Info: Driver file: pdftex.def on input line 106.
  (C:\Users\Anh Minh\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
 File: pdftex.def 2024/04/13 v1.2c Graphics/color driver for pdftex
-))
+)) (C:\Users\Anh Minh\AppData\Local\Programs\MiKTeX\tex/latex/pgfplots\pgfplots.sty (C:\Users\Anh Minh\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.revision.tex)
+Package: pgfplots 2021/05/15 v1.18.1 Data Visualization (1.18.1)
+ (C:\Users\Anh Minh\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+ (C:\Users\Anh Minh\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks22
+)
 \Gin@req@height=\dimen151
 \Gin@req@width=\dimen152
-) (C:\Users\Anh Minh\AppData\Local\Programs\MiKTeX\tex/latex/pgfplots\pgfplots.sty (C:\Users\Anh Minh\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.revision.tex)
-Package: pgfplots 2021/05/15 v1.18.1 Data Visualization (1.18.1)
- (C:\Users\Anh Minh\AppData\Local\Programs\MiKTeX\tex/latex/pgf/frontendlayer\tikz.sty (C:\Users\Anh Minh\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgf.sty (C:\Users\Anh Minh\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfrcs.sty (C:\Users\Anh Minh\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil-common.tex
+) (C:\Users\Anh Minh\AppData\Local\Programs\MiKTeX\tex/latex/pgf/frontendlayer\tikz.sty (C:\Users\Anh Minh\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgf.sty (C:\Users\Anh Minh\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfrcs.sty (C:\Users\Anh Minh\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil-common.tex
 \pgfutil@everybye=\toks23
 \pgfutil@tempdima=\dimen153
 \pgfutil@tempdimb=\dimen154
@@ -397,8 +397,8 @@ Package geometry Warning: Over-specification in `v'-direction.
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count311
 \l__pdf_internal_box=\box66
-) (Assignment-2.aux)
-\openout1 = `Assignment-2.aux'.
+) (assignment-7.aux)
+\openout1 = `assignment-7.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
 LaTeX Font Info:    ... okay on input line 11.
@@ -471,99 +471,29 @@ Package pgfplots Warning: running in backwards compatibility mode (unsuitable ti
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 25.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 24.
 (C:\Users\Anh Minh\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 25.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 24.
  (C:\Users\Anh Minh\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Underfull \hbox (badness 10000) in paragraph at lines 34--34
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 25--35
-
- []
-
-<Images/Image-0.png, id=4, 98.16675pt x 85.5195pt>
-File: Images/Image-0.png Graphic file (type png)
-<use Images/Image-0.png>
-Package pdftex.def Info: Images/Image-0.png  used on input line 42.
-(pdftex.def)             Requested size: 98.1665pt x 85.51927pt.
+<img/img-0.png, id=4, 181.8795pt x 96.96225pt>
+File: img/img-0.png Graphic file (type png)
+<use img/img-0.png>
+Package pdftex.def Info: img/img-0.png  used on input line 26.
+(pdftex.def)             Requested size: 181.87904pt x 96.962pt.
 
 
 [1
 
-{C:/Users/Anh Minh/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./Images/Image-0.png>]
-<Images/Image-1.png, id=19, 100.57574pt x 75.28125pt>
-File: Images/Image-1.png Graphic file (type png)
-<use Images/Image-1.png>
-Package pdftex.def Info: Images/Image-1.png  used on input line 58.
-(pdftex.def)             Requested size: 100.57549pt x 75.28105pt.
+{C:/Users/Anh Minh/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./img/img-0.png>]
 
-Underfull \hbox (badness 10000) in paragraph at lines 61--63
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 61--63
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 63--65
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 63--65
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 65--67
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 65--67
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 67--69
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 67--69
-
- []
-
-
-
-[2 <./Images/Image-1.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 79--82
-
- []
-
-
+[2]
 
 [3]
-Underfull \hbox (badness 10000) in paragraph at lines 127--167
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 127--167
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 127--167
+Underfull \hbox (badness 10000) in paragraph at lines 101--103
 
  []
 
@@ -571,228 +501,24 @@ Underfull \hbox (badness 10000) in paragraph at lines 127--167
 
 [4]
 
-[5]
-
-[6]
-
-[7]
-<Images/Image-2.png, id=43, 214.401pt x 112.0185pt>
-File: Images/Image-2.png Graphic file (type png)
-<use Images/Image-2.png>
-Package pdftex.def Info: Images/Image-2.png  used on input line 311.
-(pdftex.def)             Requested size: 214.40047pt x 112.0182pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 313--320
-
- []
-
-
-Overfull \hbox (20.67538pt too wide) in paragraph at lines 313--320
-[] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 313--320
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 320--322
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 322--323
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 323--324
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 324--325
-
- []
-
-
-
-[8 <./Images/Image-2.png>]
-<Images/Image-3.png, id=48, 97.5645pt x 72.87225pt>
-File: Images/Image-3.png Graphic file (type png)
-<use Images/Image-3.png>
-Package pdftex.def Info: Images/Image-3.png  used on input line 334.
-(pdftex.def)             Requested size: 97.56424pt x 72.87207pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 337--345
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 337--345
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 345--353
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 345--353
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 353--360
-
- []
-
-LaTeX Font Info:    Trying to load font information for U+dsrom on input line 372.
-(C:\Users\Anh Minh\AppData\Local\Programs\MiKTeX\tex/latex/doublestroke\udsrom.fd
-File: Udsrom.fd 1995/08/01 v0.1 Double stroke roman font definitions
-)
-Underfull \hbox (badness 10000) in paragraph at lines 366--373
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 378--412
-
- []
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-
-[9 <./Images/Image-3.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 431--432
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 442--456
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 442--456
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 442--456
-
- []
-
-
-
-[10]
-Underfull \hbox (badness 10000) in paragraph at lines 461--469
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 461--469
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 461--469
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 476--483
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 476--483
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 476--483
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 486--495
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 486--495
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 486--495
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 486--495
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 486--495
-
- []
-
-
-
-[11]
-Underfull \hbox (badness 10000) in paragraph at lines 509--510
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 512--520
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 512--520
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 522--524
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 526--534
-
- []
-
-
-
-[12]
-
-[13] (Assignment-2.aux)
+[5] (assignment-7.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-07-20>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 24291 strings out of 473899
- 633754 string characters out of 5725048
- 1941960 words of memory out of 5000000
- 46781 multiletter control sequences out of 15000+600000
- 565771 words of font info for 66 fonts, out of 8000000 for 9000
+ 24176 strings out of 473899
+ 631151 string characters out of 5725048
+ 1935960 words of memory out of 5000000
+ 46671 multiletter control sequences out of 15000+600000
+ 565483 words of font info for 63 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,13n,107p,822b,2112s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/Anh Minh/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Anh Minh/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Anh Minh/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Anh Minh/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/Anh Minh/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Anh Minh/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Anh Minh/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/Anh Minh/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Anh Minh/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Anh Minh/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/Anh Minh/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/Anh Minh/AppData/Local/Programs/MiKTeX/fonts/type1/public/doublestroke/dsrom12.pfb><C:/Users/Anh Minh/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on Assignment-2.pdf (13 pages, 188061 bytes).
+ 99i,13n,107p,822b,2131s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/Anh Minh/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Anh Minh/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Anh Minh/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Anh Minh/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Anh Minh/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Anh Minh/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Anh Minh/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Anh Minh/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on assignment-7.pdf (5 pages, 105964 bytes).
 PDF statistics:
- 122 PDF objects out of 1000 (max. 8388607)
+ 64 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 33 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 18 words of extra memory for PDF output out of 10000 (max. 10000000)
 
