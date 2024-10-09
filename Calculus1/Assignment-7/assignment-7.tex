@@ -651,7 +651,37 @@ Section 3.5:
                 \end{enumerate}
                 \setcounter{enumi}{58}
                 \item 
-                Show that the curve $y = \sqrt{4x^2 + 9}$ has two slant asymptotes: $y = 2x$ and $y = --2x$. Use this fact to help sketch the curve.
+                Show that the curve $y = \sqrt{4x^2 + 9}$ has two slant asymptotes: $y = 2x$ and $y = -2x$. Use this fact to help sketch the curve.
+                \[y = \sqrt{4x^2 + 9} = 2|x| + 3\]
+                For x very large and positive, $y \approx 2x$.\\
+                For x very large and negative, $y \approx -2x$.\\
+                Therefore, x has two slant asymptote $y = 2x$ and $y = -2x$.
+                \begin{figure}[!h]
+                    \centering
+                    \begin{framed}
+                        \begin{tikzpicture}
+                            \begin{axis}[
+                                axis lines = center,
+                                xlabel = \(x\),
+                                ylabel = {\(f(x)\)},
+                                xmin = -10, xmax = 10,  % Domain for x
+                                ymin = 0, ymax = 10,  % Adjusted range for y to account for the function's behavior
+                                samples = 200,  % Number of samples for smoothness
+                                grid = both,  % Adds grid lines
+                                width = \linewidth,  % Fills the figure width
+                            ]
+                            
+                            \addplot [
+                                domain=-10:10,  % Right of the discontinuity
+                                color = red,
+                                thick,  % Thickens the curve
+                            ]
+                            {sqrt(4*x^2 + 9)};
+                            
+                            \end{axis}
+                        \end{tikzpicture}
+                    \end{framed}
+                \end{figure}
 
 \end{enumerate}
 
