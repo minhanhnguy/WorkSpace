@@ -1,0 +1,292 @@
+\documentclass[12pt]{article}
+\setlength{\oddsidemargin}{0in}
+\setlength{\evensidemargin}{0in}
+\setlength{\textwidth}{6.5in}
+\setlength{\parindent}{0in}
+\setlength{\parskip}{\baselineskip}
+
+\usepackage{amsmath,amsfonts,amssymb,bm,graphics,pgfplots,framed,dsfont}
+\usepackage[scale=0.75,top=1cm,bottom=3cm]{geometry}
+
+\begin{document}
+
+\textbf{Minh Anh Nguyen }\\
+\textbf{Calculus 1 Assignment-}\\
+\textbf{Section: 04}\\
+\textbf{TA's name: Arthur Huey}
+
+\hrulefill
+
+
+Section 2.6:
+
+\begin{enumerate}
+    \setcounter{enumi}{6}
+    \item Find $\frac{dy}{dx}$ by implicit differentiation.
+    \[x^4 + x^2 y^2 + y^3 = 5 \]
+    \[\frac{d}{dx}(x^4 + x^2 y^2 + y^3) = \frac{d}{dx}(5)\]
+    \[4x^3 + 2xy^2 + 2x^2y\frac{dy}{dx} + 3y^2 \frac{dy}{dx} = 0\]
+    \[4x^3 + 2xy^2 + 2x^2y\frac{dy}{dx} + 3y^2 \frac{dy}{dx} = 0\]
+    \[\frac{dy}{dx}(2x^2y + 3y^2) = -4x^3 - 2xy^2\]
+    \[\boxed{\frac{dy}{dx} = \frac{-4x^3 - 2xy^2}{2x^2y + 3y^2}}\]
+    \setcounter{enumi}{10}
+    \item Find $\frac{dy}{dx}$ by implicit differentiation.
+    \[\sin x + \cos y = 2x - 3y\]
+    \[\frac{d}{dx}(\sin x + \cos y) = \frac{d}{dx}(2x - 3y)\]
+    \[\cos x - \sin y  \frac{dy}{dx} = 2 - 3\frac{dy}{dx}\]
+    \[\cos x - 2 = \sin y  \frac{dy}{dx} - 3\frac{dy}{dx}\]
+    \[\cos x - 2 = (\sin y - 3)\frac{dy}{dx}\]
+    \[\boxed{\frac{dy}{dx} = \frac{\cos x - 2}{\sin y - 3}}\]
+    \setcounter{enumi}{14}
+    \item Find $\frac{dy}{dx}$ by implicit differentiation.
+    \[\tan(\frac{x}{y}) = x + y\]
+    \[\frac{d}{dx}\tan(\frac{x}{y}) = \frac{d}{dx}(x + y)\]
+    \[\sec^2(\frac{x}{y}) \frac{d}{dx}(\frac{x}{y}) = 1 + \frac{dy}{dx}\]
+    \[\sec^2(\frac{x}{y}) \frac{y - x\frac{dy}{dx}}{y^2} = 1 + \frac{dy}{dx}\]
+    \[ \frac{y - x\frac{dy}{dx}}{y^2} = \cos^2(\frac{x}{y}) + \cos^2(\frac{x}{y})\frac{dy}{dx}\]
+    \[ \frac{y - x\frac{dy}{dx}}{y^2} - \cos^2(\frac{x}{y})\frac{dy}{dx}= \cos^2(\frac{x}{y})\]
+    \[ \frac{y - x\frac{dy}{dx}- \cos^2(\frac{x}{y})y^2\frac{dy}{dx}}{y^2} = \cos^2(\frac{x}{y})\]
+    \[ y - x\frac{dy}{dx}- \cos^2(\frac{x}{y})y^2\frac{dy}{dx} = \cos^2(\frac{x}{y})y^2\]
+    \[ - \frac{dy}{dx}(x- \cos^2(\frac{x}{y})y^2) = \cos^2(\frac{x}{y})y^2 - y\]
+    \[ \boxed{\frac{dy}{dx} = \frac{y - \cos^2(\frac{x}{y})y^2}{x- \cos^2(\frac{x}{y})y^2}}\]
+    \setcounter{enumi}{23}
+    \item Regard $y$ as the independent variable and $x$ as the dependent variable and use implicit differentiation to find $\frac{dx}{dy}$.
+    \[y\sec x = x \tan y\]
+    \[\frac{d}{dy}(y\sec x) = \frac{d}{dy}(x \tan y)\]
+    \[\sec x + y \sec x \tan x \frac{dx}{dy} = \frac{dx}{dy} \tan y + x \sec y \tan y\]
+    \[\sec x - x \sec y \tan y  = \frac{dx}{dy} \tan y - y \sec x \tan x \frac{dx}{dy} \]
+    \[\frac{dx}{dy} (\tan y - y \sec x \tan x)  = \sec x - x \sec y \tan y\]
+    \[\boxed{\frac{dx}{dy}  = \frac{\sec x - x \sec y \tan y}{\tan y - y \sec x \tan x}}\]
+    \item Use implicit differentiation to find an equation of the tangent line to the curve at the given point.
+    \[y \sin2x = x \cos 2y \text{~} (\pi/2, \pi/4)\]
+    \[\frac{d}{dx}(y \sin2x) = \frac{d}{dx}(x \cos 2y)\]
+    \[\frac{dy}{dx} \sin2x + 2 y \cos2x = \cos2y - 2xsin2y \frac{dy}{dx}\]
+    \[\frac{dy}{dx} \sin2x + 2xsin2y \frac{dy}{dx} = \cos2y - 2 y \cos2x\]
+    \[\frac{dy}{dx} (\sin2x + 2xsin2y) = \cos2y - 2 y \cos2x\]
+    \[\frac{dy}{dx}  = \frac{\cos2y - 2 y \cos2x}{\sin2x + 2xsin2y}\]
+    \[\frac{dy}{dx}|_{\pi/2}  = \frac{\cos\pi/2 - \pi/2 \cos\pi}{\sin\pi + \pi sin\pi/2}\]
+    \[\frac{dy}{dx}|_{\pi/2}  = \frac{ 0 - \pi/2 (-1)}{0 + \pi(1)}\]
+    \[\frac{dy}{dx}|_{\pi/2}  = \frac{1}{2}\]
+    The tangent line:
+    \[y - \frac{\pi}{4} = \frac{1}{2}(x - \frac{\pi}{2})\]
+    \[\boxed{y = \frac{1}{2}x }\]
+    \setcounter{enumi}{40}
+    \item If $xy + y^3 = 1$, find the value of $y''$ at the point where $x = 0$.
+    \[xy + y^3 = 1\]
+    \[y + x\frac{dy}{dx} + 3y^2\frac{dy}{dx} = 0\]
+    \[\frac{dy}{dx}(x + 3y^2) = -y\]
+    \[\frac{dy}{dx} = - \frac{y}{x + 3y^2}\]
+    \[y'' = - \frac{\frac{dy}{dx}(x + 3y^2) - y(1 + 6y \frac{dy}{dx})}{(x + 3y^2)^2}\]
+    \[y'' = \frac{y(1 + 6y \frac{dy}{dx}) - \frac{dy}{dx}(x + 3y^2) }{(x + 3y^2)^2}\]
+    \[y'' = \frac{y(1 - 6y \frac{y}{x + 3y^2}) + \frac{y}{x + 3y^2}(x + 3y^2) }{(x + 3y^2)^2}\]
+    \[y'' = \frac{y - \frac{6y^3}{x + 3y^2} + \frac{yx}{x + 3y^2} + \frac{3y^3}{x + 3y^3}}{(x + 3y^2)^2}\]
+    \[y'' = \frac{y + \frac{ - 6y^3 + yx + 3y^3}{x + 3y^2}}{(x + 3y^2)^2}\]
+    \[y'' = \frac{yx + 3y^3 - 6y^3 + yx + 3y^3}{(x + 3y^2)(x + 3y^2)^2}\]
+    \[y'' = \frac{2xy}{(x + 3y^2)^3}\]
+    If $x = 0$ then $y = 1$.
+    \[y''|_{x = 0, y = 1} = \frac{2xy}{(x + 3y^2)^3}\]
+    \[y''|_{x = 0, y = 1} = \frac{2(0)(1)}{((0) + 3(1)^2)^3}\]
+    \[\boxed{y''|_{x = 0, y = 1} = 0}\]
+    \setcounter{enumi}{62}
+    \item Use implicit differentiation to find $dy/dx$ for the equation
+    \[\frac{x}{y} = y^2 + 1 \text{~~~~} y \neq 0\]
+    and for the equivalent equation
+    \[x = y^3 + y \text{~~~~} y \neq 0\]
+    Show that although the expressions you get for $dy/dx$ look different, they agree for all points that satisfy the given equation.
+    \[\frac{x}{y} = y^2 + 1 \text{ because $y \neq 0$ so we can multiply all by y.} \] 
+    \[x = y^3 + y\] 
+    \[\frac{d}{dx}x = \frac{d}{dx}(y^3 + y)\] 
+    \[\boxed{1 = 3y^2 \frac{dy}{dx} + \frac{dy}{dx}}\]
+    Because $y \neq 0$, the first and the second are the same. Hence, their derivatives are the same.
+\end{enumerate}
+
+Section 2.8:
+
+\begin{enumerate}
+\setcounter{enumi}{2}   
+
+    \item Each side of a square is increasing at a rate of $6cm/s$. At what rate is the area of the square increasing when the area of the square is $16cm^2$?\\~\\
+        Let:
+        \begin{center}
+            A: Area of the square $(cm^2)$\\
+            x: Length of the square $(cm)$
+        \end{center}
+        For $A = 16(cm^2)$
+        \[A = x^2\]
+        \[16 = x^2\]
+        \[x = \pm 4\]
+        Because length cannot be negative: $x = 4(cm)$
+        \[A(t) = x^2(t)\]
+        \[\frac{dA}{dt} = 2x \frac{dx}{dt}\]
+        \[\frac{dA}{dt} = 2(4)(6)\]
+        \[\boxed{\frac{dA}{dt} = 48 (cm^2/s)}\]
+        \noindent\fbox{
+            \parbox{410px}{
+                The area is increasing at the rate $48cm^2/s$ when the area of the square is $16cm^2$.
+            }
+        }
+    \setcounter{enumi}{6}
+    \item A cylindrical tank with radius $5m$ is being filled with water at a rate of $3m^3/min$. How fast is the height of the water increasing?\\~\\
+    Let:
+    \begin{center}
+        r: the radius of the cylindrical tank $(m)$.\\
+        h: the height of the cylindrical tank $(m)$.\\
+        V: the volume of the cylindrical tank $(m^3)$
+    \end{center}
+    \[V = \pi r^2 h\]
+    \[V(t) = \pi r(t)^2 h(t)\]
+    \[\frac{dV}{dt} = \pi (2r(t)\frac{dr}{dt}h(t) + r^2 \frac{dh}{dt})\]    
+    \[3 = \pi (2(5)(0)h(t) + 5^2 \frac{dh}{dt})\]    
+    \[3 = \pi 5^2 \frac{dh}{dt}\]    
+    \[3 = \pi 25 \frac{dh}{dt}\]    
+    \[\boxed{\frac{dh}{dt} = \frac{3}{\pi 25}(m/min)}\]    
+    \noindent\fbox{
+        \parbox{370px}{
+            The height of the cylindrical tank is increasing at the rate ${\displaystyle \frac{3}{\pi 25}(m/min)}$.
+        }
+    }
+    \setcounter{enumi}{9}
+    \item If $x^2+y^2+z^2 = 9$, $dx/dt = 5$, and $dy/dt = 4$, find $dz/dt$ when $(x,y,z) = (2,2,1)$.
+    \[x^2+y^2+z^2 = 9\]
+    \[2x\frac{dx}{dt}+2y\frac{dy}{dt}+2z\frac{dz}{dt} = 0\]
+    \[2(2)(5)+2(2)(4)+2(1)\frac{dz}{dt} = 0\]
+    \[20+16+2\frac{dz}{dt} = 0\]
+    \[2\frac{dz}{dt} = -36\]
+    \[\boxed{\frac{dz}{dt} = -18}\]
+    \setcounter{enumi}{24}
+    \item Water is leaking out of an inverted conical tank at a rate of $10,000cm^3/min$ at the same time that water is being pumped into the tank at a constant rate. The tank has height $6m$ and the diameter at the top is $4m$. If the water level is rising at a rate of $20cm/min$ when the height of the water is $2m$, find the rate at which water is being pumped into the tank.\\~\\
+    Let:
+    \begin{center}
+        r: the radius of the tank $(m)$\\
+        h: the height of the tank $(m)$\\
+        V: the volume of the tank $(m^3)$\\
+        x: the volume of water is pumped into the tank $(m^3)/min$
+    \end{center}
+    The radius is: $r = 4/2 = 2(m)$\\
+    And also:
+    \[\frac{r}{h} = 2/6\]
+    \[\text{new }r = \frac{1}{3}h(m)\]
+    The volume of the tank is:
+    \[V = \frac{1}{3}\pi r^2h\]
+    \[V = \frac{1}{3}\pi (\frac{h}{3})^2h\]
+    \[V = \frac{1}{3}\pi \frac{h^3}{9}\]
+    \[\frac{dV}{dt} = \frac{1}{3}\pi 3\frac{h^2}{9}\frac{dh}{dt}\]
+    \[(x - 10,000)= \pi \frac{(200)^2}{9}\times 20\]
+    \[x - 10,000=\frac{800,000\pi}{9}\]
+    \[\boxed{x = \frac{800,000\pi}{9} + 10,000}\]
+\end{enumerate}
+
+Section 2.9
+
+\begin{enumerate}
+    \setcounter{enumi}{1}
+    \item Find the linearization $L(x)$ of the function at $a$.
+    \[f(x) = cos2x \text{, } a = \pi/6\]
+    \[f'(x) = -2sin2x \]
+    \[f'(\pi/6) = -2 sin(\pi/3) = -\sqrt{3}\]
+    The linearization $L(x)$ is:
+    \[L(x) = f(a) + f'(a)(x - a)\]
+    \[L(x) = f(\pi/6) + f'(\pi/6)(x - \pi/6)\]
+    \[L(x) = \frac{1}{2} - \sqrt{3}(x - \pi/6)\]
+    \[\boxed{L(x) = - \sqrt{3}x + \frac{\sqrt{3}\pi}{6} + \frac{1}{2}}\]
+    \setcounter{enumi}{4}
+    \item Find the linear approximation of the function $f(x) = \sqrt{1 - x}$ at $a = 0$ and use it to approximate the numbers $\sqrt{0.9}$ and $\sqrt{0.99}$. Illustrate by graphing $f$ and the tangent line.
+    \[f'(x) = -\frac{1}{2\sqrt{1 - x}}\]
+    \[f'(0) = -\frac{1}{2\sqrt{1 - 0}} = -1/2\]
+    Linearization of the equation at $a = 0$ is:
+    \[L(x) = f(a) + f'(a)(x - a)\]
+    \[L(x) = 1 + -1/2(x - 0)\]
+    \[L(x) = -\frac{1}{2}x + 1\]
+    \\
+    \[f(x) = \sqrt{1 - x}\]
+    \[\sqrt{0.9} = \sqrt{1 - x}\]
+    \[x = 0.1\]
+    For the approximation at $x = 0.1$ is:
+    \[L(0.1) = -0.1(1/2) + 1\]
+    \[\boxed{L(0.1) = 0.95}\]
+    \\
+    \[f(x) = \sqrt{1 - x}\]
+    \[\sqrt{0.99} = \sqrt{1 - x}\]
+    \[x = 0.01\]
+    For the approximation at $x = 0.01$ is:
+    \[L(0.01) = -0.01(1/2) + 1\]
+    \[\boxed{L(0.01) = 0.995}\]
+    \newpage
+    \begin{figure}[!h]
+        \begin{framed}
+            \centering
+            \begin{tikzpicture}
+                \begin{axis}[
+                        axis lines = center,
+                        xmin=-2,xmax=2,
+                        ymin=-7,ymax=7,
+                    ]
+                    \addplot [
+                        domain=-8:1,
+                        samples=100,
+                        color=red,
+                    ]
+                    {sqrt(1-x)};
+                    \addplot [
+                        domain=-4:1.5,
+                        samples=100,
+                        color=blue,
+                    ]
+                    {(-1/2)*x+1};
+                \end{axis}
+            \end{tikzpicture}
+        \end{framed}
+    \end{figure}
+
+    \setcounter{enumi}{13}
+    \item Find the differential of the function.
+    \[y = \theta^2 \sin 2\theta\]
+    \[\boxed{y' = 2\theta \sin 2\theta + 2\theta^2 cos2\theta }\]
+    \setcounter{enumi}{18}
+    \item Find the differential $dy$ and evaluate $dy$ for the given values of $x$ and $dx$.
+    \[y = \tan x, \text{~}x = \frac{\pi}{4}, \text{~}dx = -0.1\]
+    \[\frac{dy}{dx} = \sec^2 x\]
+    \[dy = \sec^2 x \times dx\]
+    \[dy = \sec^2 (\pi/4) \times (-0.1)\]
+    \[dy = \sec^2 (\pi/4) \times (-0.1)\]
+    \[dy = 2 \times (-0.1)\]
+    \[\boxed{dy = -0.2}\]
+    \setcounter{enumi}{22}
+    \item Compute $\Delta y$ and $y$ for the given values of $x$ and $dx = \Delta x$. Then sketch a diagram like Figure 5 showing the line segments with lengths $dx$, $dy$, and $\Delta y$.
+    \[y = x^2 - 4x, \text{ } x = 3, \text{ } \Delta x = 0.5\]
+    \[\Delta y = f(x + \Delta x) - f(x)\]
+    \[\Delta y = f(3 + 0.5) - f(3)\]
+    \[\Delta y = f(3.5) - f(3)\]
+    \[\boxed{\Delta y = (3.5)^2  - 4(3.5) - 3^2 + 4(3) = 1.25}\]
+    \[\frac{dy}{dx} = 2x - 4\]
+    \[dy = dx(2x - 4)\]
+    \[\boxed{dy = 0.5(2(3) - 4) = 1}\]
+    \begin{figure}[!h]
+        \begin{framed}
+            \centering
+            \begin{tikzpicture}
+                \begin{axis}[
+                        axis lines = center,
+                        xmin=-1,xmax=5,
+                        ymin=-7,ymax=7,
+                    ]
+                    \addplot [
+                        domain=-8:8,
+                        samples=100,
+                        color=red,
+                    ]
+                    {x^2 - 4*x};
+                    \addplot [
+                        domain=-4:8,
+                        samples=100,
+                        color=blue,
+                    ]
+                    {2*x - 9};
+                \end{axis}
+            \end{tikzpicture}
+        \end{framed}
+    \end{figure}
+\end{enumerate}
+
+\end{document}
+ 
