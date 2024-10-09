@@ -101,7 +101,7 @@ Section 3.4:
     \[\boxed{=\infty}\]
     ~\\~
     \[\lim_{x\to -\infty}x^3(x + 2)^2(x-1)\]
-    \[\boxed{= -\infty}\]
+    \[\boxed{= \infty}\]
     \begin{figure}[!h]      
         \begin{framed}
             \centering  
@@ -249,7 +249,7 @@ Section 3.5:
                 \end{tabular}    
             \end{center}
             The function f(x) is concave up in the interval $(-\infty, -2)$.\\
-            The function f(x) is concave up in the interval $(-2, \infty)$.
+            The function f(x) is concave up in the interval $(-2, \infty)$.\\
         \item Sketch the graph:
             \begin{figure}[!h]
                 \centering
@@ -308,7 +308,7 @@ Section 3.5:
             \[f'(x) = \sqrt{x} + \frac{x-3}{2\sqrt{x}}\]
             \[f'(x) = \frac{2x + x-3}{2\sqrt{x}}\]
             \[f'(x) = \frac{3x-3}{2\sqrt{x}} = 0\]
-            \[x = 1 \text{ or } x = 0\]
+            \[x = 1\]
             \begin{center}
                 \begin{tabular}{c c c c c c c c}
                     $x$  & 0 & ~ &1 & ~ & $\infty$ \\ 
@@ -323,8 +323,336 @@ Section 3.5:
         \item Local Maximum and Minimum Values:\\
             The function f has local minimum at x = 1, f(1) = -2.
         \item Concavity and Inflection Point
-            \[f''(x) = \frac{3x-3}{2\sqrt{x}}\]
+            \[f''(x) = \frac{(3x-3)'2\sqrt{x} - (2\sqrt{x})'(3x-3)}{4x}\]
+            \[f''(x) = \frac{6\sqrt{x} - \frac{1}{\sqrt{x}}(3x-3)}{4x}\]
+            \[f''(x) = \frac{6x - 3x + 3}{4x\sqrt{x}}\]
+            \[f''(x) = \frac{3x + 3}{4x\sqrt{x}} = 0\]
+            \[x = -1\]
+            \begin{center}
+                \begin{tabular}{c c c c c c c c}
+                    $x$ & $-\infty$ & ~ & -1 & ~ & 0 & ~ &$\infty$ \\ 
+                    \hline 
+                    $f^{\prime\prime} (x)$ & ~ & ~ & ~ & ~ & $||$ & + \\ 
+                \end{tabular}    
+            \end{center}
+            Hence, the function is concave up on the interval $(0,\infty)$
+        \newpage
+        \item Sketch the graph:
+        \begin{figure}[!h]
+            \centering
+            \begin{framed}
+                \begin{tikzpicture}
+                    \begin{axis}[
+                        axis lines = center,
+                        xlabel = \(x\),
+                        ylabel = {\(f(x)\)},
+                        xmin = -2, xmax = 10,  % Adjusted the domain
+                        ymin = -5, ymax = 30,  % Adjusted the range
+                        samples = 1000,
+                        domain = -5:10,  % Updated domain
+                        grid = both,  % Optional: adds a grid
+                        width = \linewidth,  % Optional: makes the plot fill the width
+                    ]
+                    \addplot [
+                        domain=0:10, 
+                        color = red,
+                        thick,  % Optional: thickens the curve
+                    ]
+                    {(x-3)*sqrt(x)};
+                    \end{axis}
+                \end{tikzpicture}
+            \end{framed}
+        \end{figure}
     \end{enumerate}
+    \setcounter{enumi}{27}
+    \item Use the guidelines of this section to sketch the curve.
+        \[y = \frac{x}{\sqrt{x^2 - 1}}\]
+        \begin{enumerate}
+            \item Domain:
+                \[x^2 - 1 > 0\]
+                \[x^2 > 1\]
+                \[x < 1\text{ or } x > 1\]
+                Hence, the domain of the function is $(-\infty,1)\cup (1, \infty)$.
+            \item Intercepts:
+                \[f(0) = \frac{0}{\sqrt{0^2 - 1}} \text{ is not defined}\]
+                \[f(x) = \frac{x}{\sqrt{x^2 - 1}} = 0\]
+                \[\frac{x}{\sqrt{x^2 - 1}} = 0 \text{ doesn't have any solution.}\]
+                Hence, there is no x nor y intercept.
+                \newpage
+            \item Symmetry:
+                \[f(-x) = \frac{-x}{\sqrt{(-x)^2 - 1}} = -\frac{x}{\sqrt{x^2 - 1}}\]
+                Hence, $f(-x) = -f(x)$. The graph is odd.
+            \item Asymptotes:
+                \[\lim_{x \to 1^+} f(x) = \lim_{x \to 1^+} \frac{x}{\sqrt{x^2 - 1}} = \lim_{x \to 1^+} \frac{x}{|x|\sqrt{1 - 1/x^2}} \]
+                Since x $>$ 1 and is positive. 
+                \[\lim_{x \to 1^+} \frac{1}{\sqrt{1 - 1/x^2}} = \infty\]
+                ~\\~\\
+                \[\lim_{x \to -1^-} f(x) = \lim_{x \to -1^-} \frac{x}{\sqrt{x^2 - 1}} = 
+                \lim_{x \to -1^-} \frac{x}{|x|\sqrt{1 - 1/x^2}}\]
+                Since x $<$ 1 and is negative. 
+                \[\lim_{x \to -1^-} \frac{-1}{\sqrt{1 - 1/x^2}} = -\infty\]
+                ~\\~\\
+                \[\lim_{x \to \infty} f(x) = \lim_{x \to \infty} \frac{x}{\sqrt{x^2 - 1}} =
+                \lim_{x \to \infty} \frac{1}{\sqrt{1 - 1/x^2}} = \lim_{x \to \infty} \frac{x}{|x|\sqrt{1 - 1/x^2}}\]
+                Since x to $\infty$ is positive.
+                \[\lim_{x \to \infty} \frac{1}{\sqrt{1 - 1/x^2}} = 1\]
+                ~\\~\\
+                \[\lim_{x \to -\infty} f(x) = \lim_{x \to -\infty} \frac{x}{\sqrt{x^2 - 1}} = \lim_{x \to -\infty} \frac{-1}{\sqrt{1 - 1/x^2}} = \lim_{x \to -\infty} \frac{x}{|x|\sqrt{1 - 1/x^2}}\]
+                Since x to $-\infty$ is negative.
+                \[\lim_{x \to -\infty} -\frac{1}{\sqrt{1 - 1/x^2}} = -1\]
+                Hence, the vertical asymptotes of the function are x = -1, x = 1.\\
+                The horizontal asymptotes of the function are y = -1, y = 1.
+            \item Intervals of Increase or Decrease:
+                \[f'(x) = \frac{x'\sqrt{x^2-1}-(\sqrt{x^2-1})'x}{(x^2 - 1)}\]
+                \[f'(x) = \frac{\sqrt{x^2-1}-\frac{x}{\sqrt{x^2-1}}x}{(x^2 - 1)}\]
+                \[f'(x) = \frac{x^2-1-x^2}{\sqrt{x^2-1}(x^2 - 1)}\]
+                \[f'(x) = \frac{-1}{\sqrt{x^2-1}(x^2 - 1)} < 0 \text{~} \forall x \in [(-\infty,1)\cup (1, \infty)]\]
+                Hence, the function decreases on its interval $(-\infty,1)\cup (1, \infty)$.
+            \item Local Maximum and Minimum Values:\\
+                The function doesn't have any maximum or minimum values since it always decreases.
+            \item Concavity and Inflection Point:
+                \[f''(x) = - \frac{(\sqrt{x^2-1}(x^2 - 1))'}{(x^2 - 1)^3}\]
+                \[f''(x) = - \frac{\frac{x}{\sqrt{x^2-1}}(x^2 - 1) + 2x\sqrt{x^2-1}}{(x^2 - 1)^3}\]
+                \[f''(x) = - \frac{x(x^2 - 1) + 2x(x^2-1)}{\sqrt{x^2-1}(x^2 - 1)^3}\]
+                \[f''(x) = - \frac{x^3 - x + 2x^3 - 2x}{\sqrt{x^2-1}(x^2 - 1)^3}\]
+                \[f''(x) = - \frac{3x^3 - 3x}{\sqrt{x^2-1}(x^2 - 1)^3} = 0\]
+                \[x = 0 \text{ or } x = \pm 1\]\\~
+                \begin{center}
+                    \begin{tabular}{c c c c c c c c c c}
+                        $x$ & $-\infty$ & ~ & -1 & ~ & 0 & ~ & 1 & ~ & $\infty$ \\ 
+                        \hline 
+                        $f^{\prime\prime} (x)$ & ~ & -- & $||$ & ~ & 0 & ~ & $||$ & + \\ 
+                    \end{tabular}    
+                \end{center}
+                Hence, the function is concave up on the interval $(1, \infty)$.\\
+                The function is concave down on the interval $(-\infty, -1)$.
+            \newpage
+            \item Sketch the graph:
+            \begin{figure}[!h]
+                \centering
+                \begin{framed}
+                    \begin{tikzpicture}
+                        \begin{axis}[
+                            axis lines = center,
+                            xlabel = \(x\),
+                            ylabel = {\(f(x)\)},
+                            xmin = -10, xmax = 10,  % Adjusted the domain
+                            ymin = -5, ymax = 5,  % Adjusted the range
+                            samples = 1000,
+                            domain = -5:10,  % Updated domain
+                            grid = both,  % Optional: adds a grid
+                            width = \linewidth,  % Optional: makes the plot fill the width
+                        ]
+                        \addplot [
+                            domain=1:10, 
+                            color = red,
+                            thick,  % Optional: thickens the curve
+                        ]
+                        {x/sqrt(x^2-1)};
+                        
+                        \addplot [
+                            domain=-10:-1, 
+                            color = red,
+                            thick,  % Optional: thickens the curve
+                        ]
+                        {x/sqrt(x^2-1)};
+                        \end{axis}
+                    \end{tikzpicture}
+                \end{framed}
+            \end{figure} 
+        \end{enumerate}
+        \setcounter{enumi}{32}
+        \item Use the guidelines of this section to sketch the curve.
+            \[y = \sin^3 x\]
+        \begin{enumerate}
+            \item Domain:\\
+                Since this function is a trigonometric function. It will be continuous everywhere.\\
+                The domain of this function is $(-\infty, \infty)$.
+            \item Intercepts:
+                \[f(0) = \sin^3 (0) = 0\]
+                \[f(x) = \sin^3 (x) = 0\]
+                \[x = n\pi \text{ with n is a integer.}\]
+            The x-intercept is $n\pi \text{ with n is a integer.}$\\
+            The y-intervals is 0.
+            \newpage
+            \item Symmetry:
+                \[f(-x) = \sin^3(-x) = -\sin^3(x)\]
+                \[f(-x) = -f(x)\]
+            Hence, the function is odd.
+            \item Asymptotes:\\
+            The function doesn't have any asymptote since it is a trigonometric function.
+            \item Intervals of Increase or Decrease:
+                \[f'(x) = \sin^3(x)' = 3\sin^2(x)\cos(x) = 0\]
+                \[\sin(x) = 0 \text{ or }\cos(x) = 0\]
+                \[x = \frac{\pi}{2}n \text{ with n is a integer.}\]
+                \begin{center}
+                    \begin{tabular}{c c c c c c c c c c c c c}
+                        $x$ & $-\infty$ & ... & 0 & ~ & $\pi/2$ & ~ & $\pi$ & ~ & $\pi 3/2$ & ... & $\infty$ \\ 
+                        \hline 
+                        $f^{\prime} (x)$ & ~ & ... & 0 & + & 0 & - & 0 & + & 0 & ... \\ 
+                    \end{tabular}    
+                \end{center}     
+            The function repeated itself each $\frac{\pi}{2}$. 
+            \item Local Maximum and Minimum Values:
+                \[ -1 \leq \sin(x) \leq 1\]
+                \[ (-1)^3 \leq \sin^3(x) \leq (1)^3\]
+                \[ -1 \leq \sin^3(x) \leq 1\]
+            Hence, the function local maximum is 1 and local minimum is -1.
+            \item Concavity and Inflection Points:
+                \[f''(x) = 3\sin^2(x)'\cos(x) + \cos(x)'3\sin^2(x)\]
+                \[f''(x) = 6\sin(x)\cos^2(x) - 3\sin^3(x) = 0\]
+                \[6\sin(x)\cos^2(x) = 3\sin^3(x)\]
+                \[2 = \frac{\sin^2(x)}{\cos^2(x)}\]
+                \[tan(x) = \sqrt{2}\]
+                \[x = \tan^{-1}\sqrt{2} + n\pi \text{ with n is an integer.}\]
+            The function is concave up in $(0, \tan^{-1}\sqrt{2})$ \\
+            then concave down in $(\tan^{-1}\sqrt{2}, \tan^{-1}\sqrt{2} + \pi)$ and repeats itself.
+            \newpage
+            \item Sketch the graph:
+            \begin{figure}[!h]
+                \centering
+                \begin{framed}
+                    \begin{tikzpicture}
+                        \begin{axis}[
+                            axis lines = center,
+                            xlabel = \(x\),
+                            ylabel = {\(f(x)\)},
+                            xmin = -10, xmax = 10,  % Domain for x
+                            ymin = -1.1, ymax = 1.1,  % Range for y
+                            samples = 10000,  % Number of samples for smoothness
+                            grid = both,  % Adds grid lines
+                            width = \linewidth,  % Fills the figure width
+                        ]
+                        \addplot [
+                            domain=-10:10,
+                            color = red,
+                            thick,  % Thickens the curve
+                        ]
+                        {sin(deg(x))^3};  % Use deg() to convert from radians to degrees
+                        \end{axis}
+                    \end{tikzpicture}
+                \end{framed}
+            \end{figure}
+        \end{enumerate}
+        \setcounter{enumi}{40}
+        \item The graph of a function $f$ is shown. (The dashed lines indicate horizontal asymptotes.) Find each of the following for the given function $g$.
+            \begin{center}
+                \includegraphics{img/img-1.png}
+            \end{center}
+            \[g(x) = \sqrt{f(x)}\]
+            \begin{enumerate}
+                \item The domains of $g$ and $g'$.\\
+                    The domain of $g$ is $(-\infty, 7]$.
+                    \[g'(x) = \frac{f'(x)}{2\sqrt{f(x)}}\]
+                    The domain of $g'$ is $(-\infty, 3) \cup (3, 7)$.
+                    \newpage
+                \item The critical numbers of $g$.
+                    \[g'(x) = \frac{f'(x)}{2\sqrt{f(x)}} = 0\]
+                    \[f'(x) = 0\]
+                    \[x = 3 \text{ or } x = 5\]
+                \item The approximate value of $g'(6)$.
+                    \[g'(6) = \frac{f'(6)}{2\sqrt{f(6)}} \approx \frac{-2}{4} = -\frac{1}{2}\]
+                \item All vertical and horizontal asymptotes of $g$.
+                    \[g(x) = \sqrt{f(x)}\]
+                Because $f(x)$ has horizontal asymptotes f(x) = 2 and f(x) = -1. But f(x) = -1 is not defined for g(x).\\
+                Therefore, $g(x) = \sqrt{f(x)} = \sqrt{2}$. Hence the horizontal asymptote of $g$ is $y = \sqrt{2}$.
+            \end{enumerate}
+            \setcounter{enumi}{52}
+            \item Use the guidelines of this section to sketch the curve. In guideline $D$, find an equation of the slant asymptote.
+                \[y = \frac{x^2}{x-1}\]
+                \begin{enumerate}
+                    \item Domain:
+                        \[x - 1 \neq 0\]
+                        \[x \neq 1\]
+                    Hence the domain of the function is $(-\infty, 1) \cup (1, \infty)$.
+                    \item Intercepts:
+                        \[f(0) = \frac{0^2}{0-1} = 0\]
+                        \[f(x) = \frac{x^2}{x-1} = 0\]
+                        \[x = 0\]
+                    Hence, the y-intercept is 0.
+                    The x-intercept is 0.
+                    \item Symmetry:
+                        \[f(-x) = \frac{(-x)^2}{-x-1} = \frac{x^2}{-x-1}\]
+                    Hence the function is not odd nor even.
+                    \item Asymptotes:
+                        \[\lim_{x \to 1^+} \frac{x^2}{x-1} = \infty\]
+                        \[\lim_{x \to 1^-} \frac{x^2}{x-1} = -\infty\]
+                        \[\lim_{x \to \infty} \frac{x^2}{x-1} = \lim_{x \to \infty} \frac{x}{1-1/x} = \infty\]
+                        \[\lim_{x \to -\infty} \frac{x^2}{x-1} = -\infty\]
+                        Hence, the function has vertical asymptotes x = 1.\\
+                        The slant asymptote after doing long division is $y = x + 1$.
+                    \item Intervals of Increase or Decrease:
+                        \[f'(x) = \frac{(x^2)'(x-1) - (x-1)'(x^2)}{x-1}\]
+                        \[f'(x) = \frac{2x(x-1) - (x^2)}{x-1}\]
+                        \[f'(x) = \frac{2x^2- 2x - x^2}{x-1}\]
+                        \[f'(x) = \frac{(x^2- 2x)}{x-1} = 0\]
+                        \[x = 0 \text{ or } x = 2\]
+                        \begin{center}
+                            \begin{tabular}{c c c c c c c c c c c c}
+                                $x$ & $-\infty$ & ~ & 0 & ~ & 1 & ~ & 2 & ~ & $\infty$ \\ 
+                                \hline 
+                                $f^{\prime} (x)$ & ~ & -- & 0 & + & $||$ & -- & 0 & + \\ 
+                            \end{tabular}    
+                        \end{center}
+                        Hence, the function increases on the interval (0,1) and $(2,\infty)$.\\
+                        The function decreases on the interval $(-\infty, 0)$ and (1,2).
+                    \item Local Maximum and Minimum Values:\\
+                    Local Minimum Values:    
+                        \[f(0) = \frac{0^2}{0-1} = 0\]
+                        \[f(2) = \frac{2^2}{2-1} = 4\]
+                    \item Concavity and Inflection Points:
+                        \[f''(x) = \frac{(x^2- 2x)'(x-1) - (x-1)'(x^2-2x)}{(x-1)^2}\]
+                        \[f''(x) = \frac{(2x- 2)(x-1) - (x^2-2x)}{(x-1)^2}\]
+                        \[f''(x) = \frac{2x^2 - 2x -2x + 2 - x^2 + 2x}{(x-1)^2}\]
+                        \[f''(x) = \frac{x^2 - 2x + 2}{(x-1)^2} = 0\]
+                        There is no solution for this function.
+                        \begin{center}
+                            \begin{tabular}{c c c c c c c c c c}
+                                $x$ & $-\infty$ & ~ & 1 & ~ $\infty$ \\ 
+                                \hline 
+                                $f^{\prime\prime} (x)$ & ~ & -- & $||$ & +\\ 
+                            \end{tabular}    
+                        \end{center}
+                        The function is concave up on the interval $(1, \infty)$.\\
+                        The function is concave down on the interval $(-\infty, 1)$.
+                    \item Sketch the graph:
+                    \begin{figure}[!h]
+                        \centering
+                        \begin{framed}
+                            \begin{tikzpicture}
+                                \begin{axis}[
+                                    axis lines = center,
+                                    xlabel = \(x\),
+                                    ylabel = {\(f(x)\)},
+                                    xmin = -10, xmax = 10,  % Domain for x
+                                    ymin = -10, ymax = 10,  % Adjusted range for y to account for the function's behavior
+                                    samples = 200,  % Number of samples for smoothness
+                                    grid = both,  % Adds grid lines
+                                    width = \linewidth,  % Fills the figure width
+                                ]
+                                \addplot [
+                                    domain=-10:0.99,  % Left of the discontinuity
+                                    color = red,
+                                    thick,  % Thickens the curve
+                                ]
+                                {(x^2)/(x-1)};
+                                
+                                \addplot [
+                                    domain=1.01:10,  % Right of the discontinuity
+                                    color = red,
+                                    thick,  % Thickens the curve
+                                ]
+                                {(x^2)/(x-1)};
+                                
+                                \end{axis}
+                            \end{tikzpicture}
+                        \end{framed}
+                    \end{figure}
+                \end{enumerate}
+                \setcounter{enumi}{58}
+                \item 
+                Show that the curve $y = \sqrt{4x^2 + 9}$ has two slant asymptotes: $y = 2x$ and $y = --2x$. Use this fact to help sketch the curve.
+
 \end{enumerate}
 
 \end{document}
