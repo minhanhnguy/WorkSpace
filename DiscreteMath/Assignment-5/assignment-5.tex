@@ -11,7 +11,7 @@
 \begin{document}
 
 \textbf{Minh Anh Nguyen }\\
-\textbf{Your class\hfill Your Excersice}
+\textbf{Discrete Mathematics\hfill Assignment-5}
 
 \hrulefill
 
@@ -98,8 +98,84 @@
       \newpage
       \item Consider the situation of Example 2.30. Describe a different one-to-one correspondence $g: Y \longrightarrow X$. Show that your function is both one-to-one and onto.\\
       Let:
-            \[Y = \{A,B,C,D\}: \text{ the sets of all sets of the points on the circle.}\]
             \[X: \text{ the set of all points of intersection of the lines in the interior of the circle.}\]
+            \[Y = \{A,B,C,D\}: \text{ the sets of all sets of the points on the circle.}\]
+            \[g: Y \longrightarrow X\]
+            \[g(\{A,B,C,D\}) = H \text{ with H is the intersection of the line AB and CD.}\]
+      Onto and One-to-one Proof:\\
+            Because H is made of the intersection of 2 lines (there are no 3 lines intersection), every H is linked with a different sets of 4 points. Hence, the function g is both one-to-one and onto.
+      \item Consider the negation function \( n: \{T, F\} \rightarrow \{T, F\} \) given by \( n(x) = \neg x \). Is \( n \) a one-to-one correspondence? What is \( n^{-1} \)?\\
+            The function n(x) is one-to-one correspondence because there are only 2 elements in both the input and output, and:
+                  \[n(T) = F\]
+                  \[n(F) = T\]
+            Therefore, every output elements are linked with a unique input elements. Hence, the function is both onto and one-to-one.\\
+            The function \(n^{-1}(x) = \neg x\) which is also \(n(x)\).
+      \item Define a function \(f: \mathds{R} \longrightarrow \mathds{R}\) by the formula \(f(x) = 3x - 5\).
+      \begin{enumerate}
+            \item Prove that f is one-to-one.\\
+            Let $a,b \in \mathds{R}$:
+                  \[f(a) = f(b)\]
+                  \[3a - 5 = 3b - 5\]
+                  \[3a = 3b\]
+                  \[a = b\]
+            Hence, the function is one-to-one.            
+            \item Prove that f is onto.\\
+            Let $x = \frac{y+5}{3}$ with $x,y \in \mathds{R}$: 
+                  \[f(x) = f(\frac{y+5}{3})\]
+                  \[f(x) = 3\times \frac{y+5}{3} - 5\]
+                  \[f(x) = y + 5 - 5\]
+                  \[f(x) = y\]
+            Thus $f$ is onto.
+            \newpage
+      \end{enumerate}
+      \item Let Z denote the set of integers, let $Z^*$ denote the set of nonzero integers, and let Q be the set of all rational numbers. Define a function $g : Z \times Z^* \rightarrow Q \text{ by } g(a, b) = a/b$. Explain why g is not one-to-one. Be specific.\\
+      For $g(2,1)$:
+            \[g(2,1) = \frac{2}{1} = 2\]
+      For $g(4,2)$:
+            \[g(4,2) = \frac{4}{2} = 2\]
+      Therefore, $g(2,1) = g(4,2)$, but $(2,1) \neq (4,2)$.\\ Hence, the function $g$ is not one-to-one.
+      \setcounter{enumi}{16}
+      \item Define a function $f: \mathds{Z} \rightarrow \mathds{Z} \times \mathds{Z}$ by $f(x) = (2x+3,x-4)$.
+      \begin{enumerate}
+            \item Is f one-to-one? Prove or disprove.\\
+                  Let:
+                        \[f(a) = f(b)\]
+                        \[(2a+3,a-4) = (2b+3,b-4)\]
+                        \[2a+3 = 2b+3 \text{ and } a-4 = b-4\]
+                        \[2a = 2b \text{ and } a = b\]
+                        \[a = b \text{ and } a = b\]
+                        \[a = b\]
+                  Therefore, $(f(a) = f(b)) \rightarrow (a = b)$\\
+                  Hence, the function f is one-to-one.
+            \item Does f map Z onto $Z \times Z$? Prove or disprove.\\
+                  Let choose $(3,3) \in \mathds{Z} \times \mathds{Z}$:
+                     \[f(x) = (3,3)\]   
+                     \[(2x+3, x-4) = (3,3)\]   
+                     \[2x+3 = 3 \text{ and } x-4 = 3\]   
+                     \[2x=0 \text{ and } x = 7\]   
+                     \[x=0 \text{ and } x = 7\]   
+                  Therefore, no single x satisfies both equations. There is no such x that maps to (3,3).
+                  Hence, the function is not onto.
+      \end{enumerate}
+      \item Define a map $t: \mathds{R} \times \mathds{R} \rightarrow \mathds{R} \times \mathds{R}$ by $t(a,b) = (a+b,a-b)$. Prove that t is a one-to-one correspondence.\\
+      Let $\{a,b,c,d\} \subset \mathds{R}$:
+            \[t(a,b) = t(c,d)\]
+            \[(a+b,a-b) = (c+d,c-d)\]
+            \[a+b = c+d \text{ and } a-b = c-d\]
+      Add both function together:
+            \[2a = 2c\]
+            \[a = c\]
+      Since $a=c$:
+            \[b=d\]
+      Therefore, $[t(a,b) = t(c,d)] \rightarrow (a,b) = (c,d)$. Hence, the function t is one-to-one.
+      \item Let $X$ be a set. Define a map $d: X \rightarrow X \times X \text{ by } d(x) = (x, x)$.
+            \begin{enumerate}
+                  \item Is d one-to-one? Prove or disprove.\\
+                  The function d is one-to-one since for every output pair $(x,x)$ with $x \in X$, there is only one input $x \in X$ that maps to it.
+                  \item Is d onto? Prove or disprove.\\
+                  The function d is not onto since for output pair $(x_1,x_2)$ with $x_1,x_2 \in X$ that $x1 \neq x2$. There are no satisfies x that maps into that pair.
 
+            \end{enumerate}
 \end{enumerate}
+
 \end{document}
