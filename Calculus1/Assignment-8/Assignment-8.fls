@@ -1,7 +1,7 @@
-PWD c:\Users\Tony Nguyen\Documents\WorkSpace\DiscreteMath\Assignment-5
+PWD c:\Users\Tony Nguyen\Documents\WorkSpace\Calculus1\Assignment-8
 INPUT C:\Users\Tony Nguyen\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT c:\Users\Tony Nguyen\Documents\WorkSpace\DiscreteMath\Assignment-5\assignment-5.tex
-OUTPUT assignment-5.log
+INPUT c:\Users\Tony Nguyen\Documents\WorkSpace\Calculus1\Assignment-8\Assignment-8.tex
+OUTPUT Assignment-8.log
 INPUT C:\Users\Tony Nguyen\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
 INPUT C:\Users\Tony Nguyen\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
 INPUT C:\Users\Tony Nguyen\AppData\Local\Programs\MiKTeX\tex\latex\base\size12.clo
@@ -215,10 +215,10 @@ INPUT C:\Users\Tony Nguyen\AppData\Local\Programs\MiKTeX\tex\latex\geometry\geom
 INPUT C:\Users\Tony Nguyen\AppData\Local\Programs\MiKTeX\tex\latex\geometry\geometry.cfg
 INPUT C:\Users\Tony Nguyen\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
 INPUT C:\Users\Tony Nguyen\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
-INPUT .\assignment-5.aux
-INPUT .\assignment-5.aux
-INPUT assignment-5.aux
-OUTPUT assignment-5.aux
+INPUT .\Assignment-8.aux
+INPUT .\Assignment-8.aux
+INPUT Assignment-8.aux
+OUTPUT Assignment-8.aux
 INPUT C:\Users\Tony Nguyen\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Users\Tony Nguyen\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Users\Tony Nguyen\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
@@ -259,41 +259,9 @@ INPUT C:\Users\Tony Nguyen\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfon
 INPUT C:\Users\Tony Nguyen\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbsy10.tfm
 INPUT C:\Users\Tony Nguyen\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmbsy8.tfm
 INPUT C:\Users\Tony Nguyen\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmbsy6.tfm
-OUTPUT assignment-5.pdf
+OUTPUT Assignment-8.pdf
 INPUT C:\Users\Tony Nguyen\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
-INPUT C:\Users\Tony Nguyen\AppData\Local\Programs\MiKTeX\tex\latex\base\omscmr.fd
-INPUT C:\Users\Tony Nguyen\AppData\Local\Programs\MiKTeX\tex\latex\base\omscmr.fd
-INPUT C:\Users\Tony Nguyen\AppData\Local\Programs\MiKTeX\tex\latex\base\omscmr.fd
-INPUT C:\Users\Tony Nguyen\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\tcrm1200.tfm
-INPUT C:\Users\Tony Nguyen\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
-INPUT C:\Users\Tony Nguyen\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam5.tfm
-INPUT C:\Users\Tony Nguyen\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm5.tfm
-INPUT C:\Users\Tony Nguyen\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx5.tfm
-INPUT C:\Users\Tony Nguyen\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmmib5.tfm
-INPUT C:\Users\Tony Nguyen\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmbsy5.tfm
-INPUT .\img\Figure2-8.png
-INPUT .\img\Figure2-8.png
-INPUT .\img\Figure2-8.png
-INPUT .\img\Figure2-8.png
-INPUT .\img\Figure2-8.png
-INPUT .\img\Figure2-8.png
-INPUT .\img\Figure2-8.png
-INPUT .\img\Figure2-9.png
-INPUT .\img\Figure2-9.png
-INPUT .\img\Figure2-9.png
-INPUT .\img\Figure2-9.png
-INPUT .\img\Figure2-9.png
-INPUT .\img\Figure2-9.png
-INPUT .\img\Figure2-9.png
-INPUT C:\Users\Tony Nguyen\AppData\Local\Programs\MiKTeX\tex\latex\doublestroke\udsrom.fd
-INPUT C:\Users\Tony Nguyen\AppData\Local\Programs\MiKTeX\tex\latex\doublestroke\udsrom.fd
-INPUT C:\Users\Tony Nguyen\AppData\Local\Programs\MiKTeX\tex\latex\doublestroke\udsrom.fd
-INPUT C:\Users\Tony Nguyen\AppData\Local\Programs\MiKTeX\fonts\tfm\public\doublestroke\dsrom12.tfm
-INPUT C:\Users\Tony Nguyen\AppData\Local\Programs\MiKTeX\fonts\tfm\public\doublestroke\dsrom8.tfm
-INPUT C:\Users\Tony Nguyen\AppData\Local\Programs\MiKTeX\fonts\tfm\public\doublestroke\dsrom8.tfm
-INPUT assignment-5.aux
-INPUT C:\Users\Tony Nguyen\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1200.pk
-INPUT C:\Users\Tony Nguyen\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1200.pk
+INPUT Assignment-8.aux
 INPUT C:\Users\Tony Nguyen\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx12.pfb
 INPUT C:\Users\Tony Nguyen\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx12.pfb
 INPUT C:\Users\Tony Nguyen\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi12.pfb
@@ -308,5 +276,3 @@ INPUT C:\Users\Tony Nguyen\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsf
 INPUT C:\Users\Tony Nguyen\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb
 INPUT C:\Users\Tony Nguyen\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy8.pfb
 INPUT C:\Users\Tony Nguyen\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy8.pfb
-INPUT C:\Users\Tony Nguyen\AppData\Local\Programs\MiKTeX\fonts\type1\public\doublestroke\dsrom12.pfb
-INPUT C:\Users\Tony Nguyen\AppData\Local\Programs\MiKTeX\fonts\type1\public\doublestroke\dsrom12.pfb

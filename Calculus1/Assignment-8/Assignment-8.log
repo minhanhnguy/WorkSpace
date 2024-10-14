@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.8.31)  12 OCT 2024 20:17
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.8.31)  13 OCT 2024 18:15
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"c:/Users/Tony Nguyen/Documents/WorkSpace/DiscreteMath/Assignment-5/assignment-5.tex"
-(c:/Users/Tony Nguyen/Documents/WorkSpace/DiscreteMath/Assignment-5/assignment-5.tex
+**"c:/Users/Tony Nguyen/Documents/WorkSpace/Calculus1/Assignment-8/Assignment-8.tex"
+(c:/Users/Tony Nguyen/Documents/WorkSpace/Calculus1/Assignment-8/Assignment-8.tex
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-07-20>
 (C:\Users\Tony Nguyen\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
@@ -397,12 +397,8 @@ Package geometry Warning: Over-specification in `v'-direction.
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count311
 \l__pdf_internal_box=\box66
-) (assignment-5.aux
-
-LaTeX Warning: Label `normal_case' multiply defined.
-
-)
-\openout1 = `assignment-5.aux'.
+) (Assignment-8.aux)
+\openout1 = `Assignment-8.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
 LaTeX Font Info:    ... okay on input line 11.
@@ -475,11 +471,11 @@ Package pgfplots Warning: running in backwards compatibility mode (unsuitable ti
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 19.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 24.
 (C:\Users\Tony Nguyen\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 19.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 24.
  (C:\Users\Tony Nguyen\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
@@ -487,63 +483,30 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 [1
 
 {C:/Users/Tony Nguyen/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 58.
- (C:\Users\Tony Nguyen\AppData\Local\Programs\MiKTeX\tex/latex/base\omscmr.fd
-File: omscmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 58.
-
-Underfull \hbox (badness 10000) in paragraph at lines 70--72
+Underfull \hbox (badness 10000) in paragraph at lines 59--60
 
  []
 
 
 
-[2]
-<img/Figure2-8.png, id=17, 939.51pt x 275.0275pt>
-File: img/Figure2-8.png Graphic file (type png)
-<use img/Figure2-8.png>
-Package pdftex.def Info: img/Figure2-8.png  used on input line 82.
-(pdftex.def)             Requested size: 460.72124pt x 134.86957pt.
-<img/Figure2-9.png, id=18, 939.51pt x 278.03876pt>
-File: img/Figure2-9.png Graphic file (type png)
-<use img/Figure2-9.png>
-Package pdftex.def Info: img/Figure2-9.png  used on input line 90.
-(pdftex.def)             Requested size: 460.72124pt x 136.34624pt.
-LaTeX Font Info:    Trying to load font information for U+dsrom on input line 96.
- (C:\Users\Tony Nguyen\AppData\Local\Programs\MiKTeX\tex/latex/doublestroke\udsrom.fd
-File: Udsrom.fd 1995/08/01 v0.1 Double stroke roman font definitions
-)
-
-[3 <./img/Figure2-8.png> <./img/Figure2-9.png>]
-
-[4]
-
-[5]
-
-[6] (assignment-5.aux)
+[2] (Assignment-8.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-07-20>
  ***********
-
-
-LaTeX Warning: There were multiply-defined labels.
-
  ) 
 Here is how much of TeX's memory you used:
- 23739 strings out of 473898
- 619115 string characters out of 5723611
- 1934960 words of memory out of 5000000
- 46221 multiletter control sequences out of 15000+600000
- 567669 words of font info for 73 fonts, out of 8000000 for 9000
+ 23673 strings out of 473898
+ 617805 string characters out of 5723611
+ 1932960 words of memory out of 5000000
+ 46169 multiletter control sequences out of 15000+600000
+ 565483 words of font info for 63 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,7n,107p,829b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\Tony Nguyen\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/Tony Nguyen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Tony Nguyen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Tony Nguyen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Tony Nguyen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Tony Nguyen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Tony Nguyen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Tony Nguyen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/Tony Nguyen/AppData/Local/Programs/MiKTeX/fonts/type1/public/doublestroke/dsrom12.pfb>
-Output written on assignment-5.pdf (6 pages, 122312 bytes).
+ 99i,6n,107p,826b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/Tony Nguyen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Tony Nguyen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Tony Nguyen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Tony Nguyen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Tony Nguyen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Tony Nguyen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Tony Nguyen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on Assignment-8.pdf (2 pages, 84590 bytes).
 PDF statistics:
- 73 PDF objects out of 1000 (max. 8388607)
+ 47 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 23 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
