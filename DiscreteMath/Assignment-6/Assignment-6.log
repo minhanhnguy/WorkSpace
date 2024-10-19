@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.8.31)  19 OCT 2024 13:59
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.8.31)  19 OCT 2024 14:27
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"c:/Users/Tony Nguyen/Documents/WorkSpace/DiscreteMath/Assignment-4/Assignment-4.tex"
-(c:/Users/Tony Nguyen/Documents/WorkSpace/DiscreteMath/Assignment-4/Assignment-4.tex
+**"c:/Users/Tony Nguyen/Documents/WorkSpace/DiscreteMath/Assignment-6/Assignment-6.tex"
+(c:/Users/Tony Nguyen/Documents/WorkSpace/DiscreteMath/Assignment-6/Assignment-6.tex
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-07-20>
 (C:\Users\Tony Nguyen\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
@@ -369,7 +369,9 @@ Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
 \FrameSep=\dimen276
 ) (C:\Users\Tony Nguyen\AppData\Local\Programs\MiKTeX\tex/latex/doublestroke\dsfont.sty
 Package: dsfont 1995/08/01 v0.1 Double stroke roman fonts
-) (C:\Users\Tony Nguyen\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
+) (C:\Users\Tony Nguyen\AppData\Local\Programs\MiKTeX\tex/latex/cancel\cancel.sty
+Package: cancel 2013/04/12 v2.2 Cancel math terms
+) (C:\Users\Tony Nguyen\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarydecorations.markings.code.tex (C:\Users\Tony Nguyen\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/decorations\pgflibrarydecorations.markings.code.tex)) (C:\Users\Tony Nguyen\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
  (C:\Users\Tony Nguyen\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
@@ -393,14 +395,12 @@ Package: iftex 2022/02/03 v1.0f TeX engine tests
 Package geometry Warning: Over-specification in `v'-direction.
     `height' (596.22748pt) is ignored.
 
-) (C:\Users\Tony Nguyen\AppData\Local\Programs\MiKTeX\tex/latex/graphics\dvipsnam.def
-File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
 ) (C:\Users\Tony Nguyen\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count311
 \l__pdf_internal_box=\box66
-) (Assignment-4.aux)
-\openout1 = `Assignment-4.aux'.
+) (Assignment-6.aux)
+\openout1 = `Assignment-6.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
 LaTeX Font Info:    ... okay on input line 12.
@@ -473,101 +473,41 @@ Package pgfplots Warning: running in backwards compatibility mode (unsuitable ti
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-<img/img-0.png, id=4, 248.93pt x 103.38625pt>
-File: img/img-0.png Graphic file (type png)
-<use img/img-0.png>
-Package pdftex.def Info: img/img-0.png  used on input line 24.
-(pdftex.def)             Requested size: 248.92938pt x 103.38599pt.
-<img/img-1.png, id=5, 171.64125pt x 103.38625pt>
-File: img/img-1.png Graphic file (type png)
-<use img/img-1.png>
-Package pdftex.def Info: img/img-1.png  used on input line 53.
-(pdftex.def)             Requested size: 171.64081pt x 103.38599pt.
-
-
-[1
-
-{C:/Users/Tony Nguyen/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./img/img-0.png> <./img/img-1.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 57--58
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 66--67
-
- []
-
-LaTeX Font Info:    Trying to load font information for U+msa on input line 77.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 20.
 (C:\Users\Tony Nguyen\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 77.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 20.
  (C:\Users\Tony Nguyen\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 
-[2]
-Underfull \hbox (badness 10000) in paragraph at lines 146--147
+[1
 
- []
+{C:/Users/Tony Nguyen/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
 
-
-
-[3]
-Underfull \hbox (badness 10000) in paragraph at lines 212--213
-
- []
+LaTeX Warning: Command \textendash invalid in math mode on input line 56.
 
 
 
-[4]
-Underfull \hbox (badness 10000) in paragraph at lines 238--240
-
- []
-
-
-LaTeX Warning: Command \textellipsis invalid in math mode on input line 298.
-
-
-
-[5]
-
-[6]
-
-[7]
-
-[8]
-Underfull \hbox (badness 10000) in paragraph at lines 398--400
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 401--403
-
- []
-
-
-
-[9]
-
-[10] (Assignment-4.aux)
+[2] (Assignment-6.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-07-20>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 23896 strings out of 473898
- 622046 string characters out of 5723611
- 1938960 words of memory out of 5000000
- 46388 multiletter control sequences out of 15000+600000
- 565830 words of font info for 64 fonts, out of 8000000 for 9000
+ 23899 strings out of 473898
+ 623349 string characters out of 5723611
+ 1933960 words of memory out of 5000000
+ 46385 multiletter control sequences out of 15000+600000
+ 565483 words of font info for 63 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,6n,107p,829b,774s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/Tony Nguyen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Tony Nguyen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Tony Nguyen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Tony Nguyen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Tony Nguyen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/Tony Nguyen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on Assignment-4.pdf (10 pages, 104177 bytes).
+ 99i,12n,107p,814b,711s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/Tony Nguyen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Tony Nguyen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Tony Nguyen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Tony Nguyen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Tony Nguyen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/latxfont/line10.pfb><C:/Users/Tony Nguyen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb>
+Output written on Assignment-6.pdf (2 pages, 68071 bytes).
 PDF statistics:
- 72 PDF objects out of 1000 (max. 8388607)
+ 42 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 23 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 13 words of extra memory for PDF output out of 10000 (max. 10000000)
 

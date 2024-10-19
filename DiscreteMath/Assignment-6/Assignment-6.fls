@@ -1,7 +1,7 @@
-PWD c:\Users\Tony Nguyen\Documents\WorkSpace\DiscreteMath\Assignment-4
+PWD c:\Users\Tony Nguyen\Documents\WorkSpace\DiscreteMath\Assignment-6
 INPUT C:\Users\Tony Nguyen\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT c:\Users\Tony Nguyen\Documents\WorkSpace\DiscreteMath\Assignment-4\Assignment-4.tex
-OUTPUT Assignment-4.log
+INPUT c:\Users\Tony Nguyen\Documents\WorkSpace\DiscreteMath\Assignment-6\Assignment-6.tex
+OUTPUT Assignment-6.log
 INPUT C:\Users\Tony Nguyen\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
 INPUT C:\Users\Tony Nguyen\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
 INPUT C:\Users\Tony Nguyen\AppData\Local\Programs\MiKTeX\tex\latex\base\size12.clo
@@ -204,6 +204,12 @@ INPUT C:\Users\Tony Nguyen\AppData\Local\Programs\MiKTeX\tex\latex\framed\framed
 INPUT C:\Users\Tony Nguyen\AppData\Local\Programs\MiKTeX\tex\latex\framed\framed.sty
 INPUT C:\Users\Tony Nguyen\AppData\Local\Programs\MiKTeX\tex\latex\doublestroke\dsfont.sty
 INPUT C:\Users\Tony Nguyen\AppData\Local\Programs\MiKTeX\tex\latex\doublestroke\dsfont.sty
+INPUT C:\Users\Tony Nguyen\AppData\Local\Programs\MiKTeX\tex\latex\cancel\cancel.sty
+INPUT C:\Users\Tony Nguyen\AppData\Local\Programs\MiKTeX\tex\latex\cancel\cancel.sty
+INPUT C:\Users\Tony Nguyen\AppData\Local\Programs\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarydecorations.markings.code.tex
+INPUT C:\Users\Tony Nguyen\AppData\Local\Programs\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarydecorations.markings.code.tex
+INPUT C:\Users\Tony Nguyen\AppData\Local\Programs\MiKTeX\tex\generic\pgf\libraries\decorations\pgflibrarydecorations.markings.code.tex
+INPUT C:\Users\Tony Nguyen\AppData\Local\Programs\MiKTeX\tex\generic\pgf\libraries\decorations\pgflibrarydecorations.markings.code.tex
 INPUT C:\Users\Tony Nguyen\AppData\Local\Programs\MiKTeX\tex\latex\geometry\geometry.sty
 INPUT C:\Users\Tony Nguyen\AppData\Local\Programs\MiKTeX\tex\latex\geometry\geometry.sty
 INPUT C:\Users\Tony Nguyen\AppData\Local\Programs\MiKTeX\tex\generic\iftex\ifvtex.sty
@@ -213,15 +219,12 @@ INPUT C:\Users\Tony Nguyen\AppData\Local\Programs\MiKTeX\tex\generic\iftex\iftex
 INPUT C:\Users\Tony Nguyen\AppData\Local\Programs\MiKTeX\tex\latex\geometry\geometry.cfg
 INPUT C:\Users\Tony Nguyen\AppData\Local\Programs\MiKTeX\tex\latex\geometry\geometry.cfg
 INPUT C:\Users\Tony Nguyen\AppData\Local\Programs\MiKTeX\tex\latex\geometry\geometry.cfg
-INPUT C:\Users\Tony Nguyen\AppData\Local\Programs\MiKTeX\tex\latex\graphics\dvipsnam.def
-INPUT C:\Users\Tony Nguyen\AppData\Local\Programs\MiKTeX\tex\latex\graphics\dvipsnam.def
-INPUT C:\Users\Tony Nguyen\AppData\Local\Programs\MiKTeX\tex\latex\graphics\dvipsnam.def
 INPUT C:\Users\Tony Nguyen\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
 INPUT C:\Users\Tony Nguyen\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
-INPUT .\Assignment-4.aux
-INPUT .\Assignment-4.aux
-INPUT Assignment-4.aux
-OUTPUT Assignment-4.aux
+INPUT .\Assignment-6.aux
+INPUT .\Assignment-6.aux
+INPUT Assignment-6.aux
+OUTPUT Assignment-6.aux
 INPUT C:\Users\Tony Nguyen\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Users\Tony Nguyen\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Users\Tony Nguyen\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
@@ -231,22 +234,6 @@ INPUT C:\Users\Tony Nguyen\AppData\Local\Programs\MiKTeX\tex\latex\00miktex\epst
 INPUT C:\Users\Tony Nguyen\AppData\Local\Programs\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
 INPUT C:\Users\Tony Nguyen\AppData\Local\Programs\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
 INPUT C:\Users\Tony Nguyen\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
-INPUT .\img\img-0.png
-INPUT .\img\img-0.png
-INPUT .\img\img-0.png
-INPUT .\img\img-0.png
-OUTPUT Assignment-4.pdf
-INPUT .\img\img-0.png
-INPUT .\img\img-0.png
-INPUT .\img\img-0.png
-INPUT .\img\img-1.png
-INPUT .\img\img-1.png
-INPUT .\img\img-1.png
-INPUT .\img\img-1.png
-INPUT .\img\img-1.png
-INPUT .\img\img-1.png
-INPUT .\img\img-1.png
-INPUT C:\Users\Tony Nguyen\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
 INPUT C:\Users\Tony Nguyen\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr8.tfm
 INPUT C:\Users\Tony Nguyen\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr6.tfm
 INPUT C:\Users\Tony Nguyen\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi12.tfm
@@ -278,8 +265,9 @@ INPUT C:\Users\Tony Nguyen\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfon
 INPUT C:\Users\Tony Nguyen\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbsy10.tfm
 INPUT C:\Users\Tony Nguyen\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmbsy8.tfm
 INPUT C:\Users\Tony Nguyen\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmbsy6.tfm
-INPUT C:\Users\Tony Nguyen\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmti12.tfm
-INPUT Assignment-4.aux
+OUTPUT Assignment-6.pdf
+INPUT C:\Users\Tony Nguyen\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
+INPUT Assignment-6.aux
 INPUT C:\Users\Tony Nguyen\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx12.pfb
 INPUT C:\Users\Tony Nguyen\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx12.pfb
 INPUT C:\Users\Tony Nguyen\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi12.pfb
@@ -288,7 +276,7 @@ INPUT C:\Users\Tony Nguyen\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsf
 INPUT C:\Users\Tony Nguyen\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr12.pfb
 INPUT C:\Users\Tony Nguyen\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb
 INPUT C:\Users\Tony Nguyen\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb
-INPUT C:\Users\Tony Nguyen\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy8.pfb
-INPUT C:\Users\Tony Nguyen\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy8.pfb
-INPUT C:\Users\Tony Nguyen\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmti12.pfb
-INPUT C:\Users\Tony Nguyen\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmti12.pfb
+INPUT C:\Users\Tony Nguyen\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\latxfont\line10.pfb
+INPUT C:\Users\Tony Nguyen\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\latxfont\line10.pfb
+INPUT C:\Users\Tony Nguyen\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\symbols\msam10.pfb
+INPUT C:\Users\Tony Nguyen\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\symbols\msam10.pfb
