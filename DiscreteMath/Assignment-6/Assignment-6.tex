@@ -74,7 +74,15 @@
   This should be an undirected graph.
   \item Find an Euler path in the graph you made in Exercise 3.\\
   The Euler path from the graph in Exercise 3 is: 
-  \[cta \rightarrow cat \rightarrow act \rightarrow atc \rightarrow tac \rightarrow tca\]
-  \item Consider the graph formed by the $\rightleftharpoons$ relation on the set of all the strings you can form from the letters l, y, n, and x. Does this graph have an Euler path? Why or why not?
+  \[cta \rightarrow cat \rightarrow act \rightarrow atc \rightarrow tac \rightarrow tca \rightarrow cta\]
+  \item Consider the graph formed by the $\rightleftharpoons$ relation on the set of all the strings you can form from the letters l, y, n, and x. Does this graph have an Euler path? Why or why not?\\
+  From the letters l, y, n and x, I can construct 24 strings. Each of those will have 3 possibilities to form a new string by reversing a pair of adjacent letters. \\
+  Hence, each of the 24 vertices had an odd degree of 3 edges.\\
+  Therefore, the graph does not have a Euler Path.
+  \item Does the graph of the $\rightleftharpoons$ relation on the set of all strings formed from the letters l, e, o, p, a, r, and d have an Euler path? Why or why not?\\
+  The number of string we can construct from the letters l, e, o, p, a, r and d is 5040 strings. Each of them has 6 possibilities to form a new string.\\
+  Hence, the graph does have a Euler Path since they only have an even degree of 6 edges.
+  \item Suppose you wanted to model an equivalence relation with a graph. Would you use a directed or an undirected graph? What would the equivalence classes look like? Explain.
+  
 \end{enumerate}
 \end{document}
