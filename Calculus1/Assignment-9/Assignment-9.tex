@@ -1,0 +1,93 @@
+\documentclass[12pt]{article}
+\setlength{\oddsidemargin}{0in}
+\setlength{\evensidemargin}{0in}
+\setlength{\textwidth}{6.5in}
+\setlength{\parindent}{0in}
+\setlength{\parskip}{\baselineskip}
+
+\usepackage{amsmath,amsfonts,amssymb,bm,graphics,pgfplots,framed,dsfont}
+\usepackage[scale=0.75,top=1cm,bottom=3cm]{geometry}
+
+\begin{document}
+
+\textbf{Minh Anh Nguyen }\\
+\textbf{Calculus 1 Assignment-9}\\
+\textbf{Section: 04}\\
+\textbf{TA's name: Arthur Huey}
+
+\hrulefill
+
+\begin{enumerate}
+    \setcounter{enumi}{8}
+    \item Find the most general antiderivative of the function. (Check your answer by differentiation.)
+    \[f(x) = x(12x + 8)\]
+    \[f(x) = 12x^2 + 8x\]
+    \[F(x) = 4x^3 + 4x^2 + C\]
+    \setcounter{enumi}{14}
+    \item Find the most general antiderivative of the function. (Check your answer by differentiation.)
+    \[f(x) = \frac{2t - 4 + 3\sqrt{t}}{\sqrt{t}}\]
+    \[f(x) = 2\sqrt{t} - \frac{4}{\sqrt{t}} + 3\]
+    \[f(x) = 2t^{1/2} - 4t^{-1/2} + 3\]
+    \[F(x) = \frac{4}{3}t^{3/2} - 8t^{1/2} + 3t + C\]
+    \setcounter{enumi}{18}
+    \item Find the most general antiderivative of the function. (Check your answer by differentiation.)
+    \[f(\theta) = 2\sin\theta - 3\sec\theta\tan\theta\]
+    \[F(\theta) = -2\cos\theta - 3\sec\theta + C\]
+    \setcounter{enumi}{21}
+    \item Find the most general antiderivative of the function. (Check your answer by differentiation.)
+    \[h(x) = \sec^2 x + \pi\cos x\]
+    \[H(x) = \tan x + \pi\sin x + C\]
+    \setcounter{enumi}{28}
+    \item Find the antiderivative F of f that satisfies the given condition. Check your answer by comparing the graphs of f and F.
+    \[f''(x) = 4x^3 + 24x - 1\]
+    \[f'(x) = x^4 + 12x^2 - x + C\]
+    \[f(x) = \frac{x^5}{5} + 4x^3 - \frac{x^2}{2} + Cx + D\]
+    \setcounter{enumi}{38}
+    \item Find f.
+    \[f'(t) = \sec t(\sec t + \tan t)\text{, } -\frac{\pi}{2} < t < \frac{\pi}{2} \text{, } f(\pi/4) = -1\]
+    \[f'(t) = \sec^2 t + \sec t \tan t\]
+    \[f(t) = \tan t + \sec t + C\]
+    Because $f(\pi/4) = -1$:
+    \[\tan \pi/4 + \sec \pi/4 + C = -1\]
+    \[1 + \sqrt{2} + C = -1\]
+    \[C = -2 - \sqrt{2}\]
+    Hence
+    \[f(t) = \tan t + \sec t -2 -\sqrt{2}\]
+    \setcounter{enumi}{60}
+    \item A particle is moving with the given data. Find the position of the particle.
+    \[a(t) = 2t + 1\text{, }s(0) = 3\text{, }v(0) = -2\]
+    \[v(t) = t^2 + t + C\]
+    Because $v(0) = -2$:
+    \[(0)^2 + 0 + C = -2\]
+    \[C = -2\]
+    Hence:
+    \[v(t) = t^2 + t -2\]
+    \[s(t) = \frac{t^3}{3} + \frac{t^2}{2} - 2t + D\]
+    Because $s(0) = 3$
+    \[\frac{(0)^3}{3} + \frac{(0)^2}{2} -2(0) + D = 3\]
+    \[D = 3\]
+    Hence:
+    \[s(t) = \frac{t^3}{3} + \frac{t^2}{2} -2t + 3\]
+    \setcounter{enumi}{64}
+    \item A stone is dropped from the upper observation deck (the Space Deck) of the CN Tower, $450m$ above the ground.
+    \begin{enumerate}
+        \item Find the distance of the stone above ground level at time $t$.\\
+        Let assume $g = 9.8m/s^2$:
+        \[s(t) = 450 - \frac{9.8}{2}t^2\]
+        \[s(t) = 450 - 4.9t^2\]
+        \item How long does it take the stone to reach the ground?\\
+        The time it takes the stone to reach the ground is:
+        \[s(t) = 450 - 4.9t^2 = 0\]
+        \[4.9t^2 = 450\]
+        \[t^2 = 91\frac{41}{49}\]
+        \[t = \pm\sqrt{91\frac{41}{49}}\]
+        Because the time t cannot be negative:
+        \[t = \sqrt{91\frac{41}{49}}\]
+        \item With what velocity does it strike the ground?
+        \[v(t) = -9.8t\]
+        The stone strikes the ground at $t = \sqrt{91\frac{41}{49}}$:
+        \[v(\sqrt{91\frac{41}{49}}) = -9.8(\sqrt{91\frac{41}{49}})\]
+        \item If the stone is thrown downward with a speed of $5m/s$, how long does it take to reach the ground?
+    \end{enumerate}
+\end{enumerate}
+\end{document}
