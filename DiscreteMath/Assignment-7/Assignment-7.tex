@@ -116,8 +116,7 @@
   \begin{enumerate}
     \item Draw the Hasse diagram for the poset $(X, \vDash)$.
     \begin{center}
-      \begin{tikzpicture}[scale=1.5, every node/.style={circle,draw, fill=white!20}]
-        % Nodes in two columns
+      \begin{tikzpicture}[node distance={15mm}, thick, main/.style = {draw, circle}]
         \node (5) at (0,0) {5};
         \node (10) at (2,0) {10};
         \node (15) at (0,1) {15};
@@ -127,7 +126,6 @@
         \node (35) at (0,3) {35};
         \node (40) at (2,3) {40};
     
-        % Edges for immediate (covering) relations only
         \draw (5) -- (15);
         \draw (10) -- (20);
         \draw (15) -- (25);
