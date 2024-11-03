@@ -1,0 +1,283 @@
+\documentclass[12pt]{article}
+\setlength{\oddsidemargin}{0in}
+\setlength{\evensidemargin}{0in}
+\setlength{\textwidth}{6.5in}
+\setlength{\parindent}{0in}
+\setlength{\parskip}{\baselineskip}
+
+\usepackage{amsmath,amsfonts,amssymb,bm,graphics,pgfplots,framed,dsfont}
+\usepackage[scale=0.75,top=1cm,bottom=3cm]{geometry}
+
+\begin{document}
+
+\textbf{Minh Anh Nguyen }\\
+\textbf{Discrete Math\hfill Assignment-8}
+
+\hrulefill
+
+Section 3.1:
+
+\begin{enumerate}
+    \item Refer to the recurrence relation for the Fibonacci sequence in Definition 3.1
+    \begin{enumerate}
+        \item Answer Fibonacci's question by calculating F(12).
+            \[F(12) = 144\]
+        \item Write F(1000) in terms of F(999) and F(998).
+            \[F(1000) = F(999) + F(998)\]
+        \item Write F(1000) in terms of F(998) and F(997).
+            \[F(1000) = 2F(998) + F(997)\]
+    \end{enumerate}
+    \item In Fibonaccci's model, rabbits live forever. The following modification of Definition 3.1 accounts for dying rabbits:
+    \[
+    G(n) = 
+    \begin{cases} 
+    0 & \text{if } n \leq 0, \\
+    1 & \text{if } n = 1 \text{ or } n = 2, \\
+    G(n - 1) + G(n - 2) - G(n - 8) & \text{if } n > 2.
+    \end{cases}
+    \]
+    \begin{enumerate}
+    \item Compute \( G(n) \) for \( n = 1, 2, \ldots, 12 \):
+    \begin{align*}
+        G(1) &= 1 \\
+        G(2) &= 1 \\
+        G(3) &= 2 \\
+        G(4) &= 3 \\
+        G(5) &= 5 \\
+        G(6) &= 8 \\
+        G(7) &= 13 \\
+        G(8) &= 21 \\
+        G(9) &= 33 \\
+        G(10) &= 53 \\
+        G(11) &= 86 \\
+        G(12) &= 136
+    \end{align*}
+        \item In this modified model, how long do rabbits live?\\
+        The rabbits live for 8 months.
+    \end{enumerate}
+    \newpage
+    \item Consider the following recurrence relation:
+    \[
+    H(n) = 
+    \begin{cases} 
+    0 & \text{if } n \leq 0, \\
+    1 & \text{if } n = 1 \text{ or } n = 2, \\
+    H(n - 1) + H(n - 2) - H(n - 3) & \text{if } n > 2.
+    \end{cases}
+    \]
+    \begin{enumerate}
+        \item Compute H(n) for n = 1,2,...10
+        \begin{align*}
+            H(1) &= 1\\
+            H(2) &= 1\\
+            H(3) &= 2\\
+            H(4) &= 2\\
+            H(5) &= 3\\
+            H(6) &= 3\\
+            H(7) &= 4\\
+            H(8) &= 4\\
+            H(9) &= 5\\
+            H(10) &= 5
+        \end{align*}
+        \item Using the pattern from part(a), gues what H(100) is
+            \[H(100) = 50\]
+    \end{enumerate}
+    \item The Lucas numbers L(n) have almost the same definition as the Fibonacci numbers:
+    \[
+    L(n) = 
+    \begin{cases} 
+    1 &     \text{if } n = 1, \\
+    3 & \text{if } n = 2 \\
+    L(n - 1) + L(n - 2) & \text{if } n > 2.
+    \end{cases}
+    \]
+    \begin{enumerate}
+        \item How is the definition of L(n) different from the definition of F(n) in Definition 3.1?\\
+        The definition of L(n) is different from F(n) when n = 2. \\ L(2) = 3 and F(2) = 1.
+        \item Compute the first 12 Lucas numbers.
+        \begin{align*}
+            L(1) &= 1\\
+            L(2) &= 3\\
+            L(3) &= 4\\
+            L(4) &= 7\\
+            L(5) &= 11\\
+            L(6) &= 18\\
+            L(7) &= 29\\
+            L(8) &= 47\\
+            L(9) &= 76\\
+            L(10) &= 123
+        \end{align*}
+    \end{enumerate}
+    \newpage
+    \item Compute the first seven terms of the following recurrence relations:
+    \begin{enumerate}
+        \item C(n) of Example 3.5
+        \[
+        C(n) = 
+        \begin{cases} 
+        1 &     \text{if } n = 0, \\
+        2.C(n-1) & \text{if } n > 0 
+        \end{cases}
+        \]
+        \begin{align*}
+            C(0) &= 1\\
+            C(1) &= 2\\
+            C(2) &= 4\\
+            C(3) &= 8\\
+            C(4) &= 16\\
+            C(5) &= 32\\
+            C(6) &= 64
+        \end{align*}
+        \item V(n) of Example 3.6
+        \[
+        V(n) = 
+        \begin{cases} 
+        1 &     \text{if } n = 0, \\
+        2.V(n-1) + 1 & \text{if } n > 0 
+        \end{cases}
+        \]
+        \begin{align*}
+            V(0) &= 1\\
+            V(1) &= 3\\
+            V(2) &= 7\\
+            V(3) &= 15\\
+            V(4) &= 31\\
+            V(5) &= 63\\
+            V(6) &= 127
+        \end{align*}
+        \item E(n) of Example 3.7
+        \[
+        E(n) = 
+        \begin{cases} 
+        0 &     \text{if } n = 1, \\
+        E(n-1) + n - 1 & \text{if } n > 1 
+        \end{cases}
+        \]
+        \begin{align*}
+            E(1) &= 0\\
+            E(2) &= 1\\
+            E(3) &= 3\\
+            E(4) &= 6\\
+            E(5) &= 10\\
+            E(6) &= 15\\
+            E(7) &= 21
+        \end{align*}
+    \end{enumerate}
+    \item Consider the following recurrence relation.
+    \[
+    P(n) = 
+    \begin{cases} 
+    0 &     \text{if } n = 0 \\
+    [P(n-1)]^2 - n  & \text{if } n > 0 
+    \end{cases}
+    \]
+    Use this recurrence relation to compute P(1), P(2), P(3), and P(4)
+    \begin{align*}
+        P(1) &= -1\\
+        P(2) &= -1\\
+        P(3) &= -2\\
+        P(4) &= 0
+    \end{align*}
+    \item Given the following definition, compute P(4).
+    \[
+    Q(n) = 
+    \begin{cases} 
+    1 &     \text{if } n = 0 \\
+    n\times [P(n - 1)] & \text{if } n > 0
+    \end{cases}
+    \]
+    \[P(4) = 4 \times P(3) = 4 \times 3 \times P(2) = 4 \times 3 \times 2 \times P(1) = 4 \times 3 \times 2 \times 1 \times P(0)\]
+    \[4 \times 3 \times 2 \times 1 \times 1 = 24\]
+    \item Given the following definition, compute Q(5).
+    \[
+    Q(n) = 
+    \begin{cases} 
+    0 &     \text{if } n = 0 \\
+    1 & \text{if } n = 1\\
+    2 & \text{if } n = 2\\
+    Q(n-1) + Q(n-2) + Q(n-3) & \text{if } n > 2
+    \end{cases}
+    \]
+    \[Q(5) = Q(4) + Q(3) + Q(2) = Q(3) + Q(2) + Q(1) + Q(2) + Q(1) + Q(0) + Q(2)\]
+    \[=  Q(2) + Q(1) + Q(0) + Q(2) + Q(1) + Q(2) + Q(1) + Q(0) + Q(2)\]
+    \[= 2 + 1 + 0 + 2 + 1 + 2 + 1 + 0 + 2 = 11\]
+    \item Consider the recurrence relation defined in Example 3.3. Suppose that, as in the example, you borrow \textdollar 500, but you pay her back \textdollar 100 each week. Each week, Ursula charges you 10\% interest on the amount you still owe, after your \textdollar 100 payment is taken into account.
+    \begin{enumerate}
+        \item Write down a recurrence relation for M(n), the amount owed after n weeks.
+        \[
+        Q(n) = 
+        \begin{cases} 
+        500 &     \text{if } n = 0 \\
+        1.1 \times (M(n-1)-100) & \text{if } n > 0
+        \end{cases}
+        \]
+        \item How much will you owe after four weeks?
+        \[Q(4) = 1.1 \times (Q(3)-100) = 1.1 \times (1.1 \times (Q(2) - 100) - 100)\]
+        \[ = 1.1 \times (1.1 \times (1.1\times (Q(1) - 100) - 100) - 100)\]
+        \[ = 1.1 \times (1.1 \times (1.1\times (1.1\times (Q(0) - 100) - 100) - 100) - 100)\]
+        \[ = 1.1 \times (1.1 \times (1.1\times (1.1\times (500 - 100) - 100) - 100) - 100) = 221.54\]
+    \end{enumerate}
+    \item Every year, Alice gets a raise of \textdollar 3,000 plus 5\% of her previous year’s salary. Her starting salary is \textdollar 50,000. Give a recurrence relation for S(n), Alice’s salary after n years, for $n \geq 0$.
+    \[
+    S(n) = 
+    \begin{cases} 
+    50000 &     \text{if } n = 0 \\
+    1.05 \times S(n-1) + 3000 & \text{if } n > 0
+    \end{cases}
+    \]
+    \item Suppose that today (year 0) your car is worth \textdollar 10,000. Each year your car loses 10\% of its value, but at the end of each year you add customizations to your car that increase its value by \textdollar 50. Write a recurrence relation to model this situation.\\
+    Let P(n) is the value of the car after n year(s).
+    \[
+    P(n) = 
+    \begin{cases} 
+    10000 &     \text{if } n = 0 \\
+    0.9 \times P(n-1) + 50 & \text{if } n > 0
+    \end{cases}
+    \]
+\end{enumerate}
+
+Section 3.4:
+
+\begin{enumerate}
+\setcounter{enumi}{12}
+    \item In Exercise 3 of Section 3.1, we defined the following recurrence relation:
+    \[
+    H(n) = 
+    \begin{cases} 
+    0 & \text{if } n \leq 0 \\
+    1 & \text{if } n = 1 \text{ or } n = 2 \\
+    H(n-1) + H(n-2) - H(n-3) & \text{if } n > 2
+    \end{cases}
+    \]
+    Prove that $H(2n) = H(2n - 1) = n$ for all $n \geq 1$.\\
+    \textbf{Step 1:}\\
+    For n = 1:
+    \[H(2 \times 1) = H(2) = 1\]
+    \[H(2 \times 1 - 1) = H(1) = 1\]
+    Hence, $H(2 \times 1) = H(2 \times 1 - 1) = 1$. \\
+    Then $H(2n) = H(2n - 1) = n$ is true for n = 1.\\
+    For n = 2:
+    \[H(2 \times 2) = H(4) = H(3) + H(2) - H(1) = H(2) + 1 - 1 = 1 + 1 - 0 = 2\]
+    \[H(2 \times 2 - 1) = H(3) = 1 + 1 - 0 = 2\]
+    Hence, $H(2 \times 2) = H(2 \times 2 - 1) = 2$. \\
+    \textbf{Step 2:}\\
+    For n = k, assume $H(2k) = H(2k - 1) = k$ is true.\\
+    \textbf{Step 3:}\\
+    For n = k + 1:
+    \[H(2(k + 1)) = H(2(k+1) - 1)\]
+    \[H(2k + 2) = H(2k+2 - 1)\]
+    \[H(2k + 2) = H(2k+1)\]
+    \[H(2k + 1) + H(2k) - H(2k-1) = H(2k) + H(2k-1) - H(2k-2)\]
+    \[H(2k + 1) + k - k = k + k - H(2k-2)\]
+    \[H(2k) + H(2k - 1) - H(2k - 2) = 2k - H(2k-2)\]
+    \[k + k - H(2k - 2) = 2k - H(2k-2)\]
+    \[0 = 0 (true)\]
+    Hence, $H(2(k + 1)) = H(2(k+1) - 1)$ is true.
+    \[H(2(k + 1)) = k + 1\]
+    \[H(2k+2) = k + 1\]
+    \[H(2k+1) + H(2k) - H(2k-1) = k + 1\]
+    \[H(2k+1) + k - k = k + 1\]
+    \[H(2k+1) = k + 1\]
+\end{enumerate}
+
+\end{document}
