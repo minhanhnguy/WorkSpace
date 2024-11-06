@@ -301,20 +301,18 @@ Section 4.4:
 Section 4.5:
 
 \begin{enumerate}
-\setcounter{enumi}{1}
+\setcounter{enumi}{2}
     \item Evaluate the integral by making the given substitution.
     \[\int x(2x^2 + 3)^4 dx, u = 2x^2 + 3\]
-    \[u = 2x^2 + 3\]
-    \[du = 4xdx\]
-    \[\frac{du}{4} = xdx\]
-    \[\int x(2x^2 + 3)^4 dx = \frac{1}{4} \int u^4 du = \frac{1}{4} \frac{u^5}{5} + C = \frac{u^5}{20} + C = \frac{(2x^2+3)^5}{20} + C\]
-\setcounter{enumi}{5}
+    \[du = 4x dx\]
+    \[\frac{du}{4} = x dx\]
+    Hence,
+    \[\int x(2x^2 + 3)^4dx = \frac{1}{4}\int u^4 du = \frac{u^5}{20} + C = \frac{(2x^2 + 3)^5}{20} + C\]
     \item Evaluate the integral by making the given substitution.
-    \[\int \frac{1}{x^2} \sqrt{1 + \frac{1}{x}} dx, u = 1 + \frac{1}{x}\]
-    \[u = 1 + \frac{1}{x}\]
-    \[du = -\frac{1}{x^2}dx\]
-    \[-du = \frac{1}{x^2}dx\]
-    \[\int \frac{1}{x^2} \sqrt{1 + \frac{1}{x}} dx = - \int \sqrt{u} du = - \frac{2u^{3/2}}{3} + C = - \frac{2(1 + \frac{1}{x})^{3/2}}{3} + C \]
+    \[\int \sin^2 \theta \cos \theta d\theta, u = \sin \theta\]
+    \[du = \cos \theta d\theta\]
+    Hence, 
+    \[\int \sin^2 \theta \cos \theta d\theta = \int u^2 du = \frac{u^3}{3} + C = \frac{(\sin x)^3}{3} + C\]
 \setcounter{enumi}{8}
     \item Evaluate the indefinite integral.
     \[\int x \sqrt{1-x^2}dx\]
