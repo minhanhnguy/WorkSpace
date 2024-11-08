@@ -1,7 +1,7 @@
 # Fdb version 4
-["pdflatex"] 1730612456.61026 "/home/minh/Documents/WorkSpace/DiscreteMath/Assignment-8/Assignment-8.tex" "Assignment-8.pdf" "Assignment-8" 1730612457.24294 0
+["pdflatex"] 1731052708.85108 "/home/minh/Documents/WorkSpace/DiscreteMath/Assignment-8/Assignment-8.tex" "Assignment-8.pdf" "Assignment-8" 1731052709.68302 0
   "/etc/texmf/web2c/texmf.cnf" 1730590647.74024 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/minh/Documents/WorkSpace/DiscreteMath/Assignment-8/Assignment-8.tex" 1730612456.42141 9186 c46cb4f57f8acddc3c4dd88321dc82fc ""
+  "/home/minh/Documents/WorkSpace/DiscreteMath/Assignment-8/Assignment-8.tex" 1731052708.58345 9240 ebbf8861041c83639b1aed077924a2d3 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/tcrm1200.tfm" 1136768653 1536 74b7293ec3713bb7fdca8dd1bd1f469c ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy6.tfm" 1246382020 1124 14ccf5552bc7f77ca02a8a402bea8bfb ""
@@ -176,8 +176,8 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1707919699 40399 f2c302f7d2af602abb742093540a5834 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1730592168.33986 5472669 54eaf61a88b6b7896ebd0dac973cb29c ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1730592278 8215936 631733d1f9549363b545d4ca7b0baa88 ""
-  "Assignment-8.aux" 1730612457.19233 32 77e0dffd05b653a64f0caf3eb9bb454a "pdflatex"
-  "Assignment-8.tex" 1730612456.42141 9186 c46cb4f57f8acddc3c4dd88321dc82fc ""
+  "Assignment-8.aux" 1731052709.60845 32 77e0dffd05b653a64f0caf3eb9bb454a "pdflatex"
+  "Assignment-8.tex" 1731052708.58345 9240 ebbf8861041c83639b1aed077924a2d3 ""
   (generated)
   "Assignment-8.aux"
   "Assignment-8.log"

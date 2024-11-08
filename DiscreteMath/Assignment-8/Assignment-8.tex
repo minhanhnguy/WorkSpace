@@ -105,7 +105,9 @@ Section 3.1:
             L(7) &= 29\\
             L(8) &= 47\\
             L(9) &= 76\\
-            L(10) &= 123
+            L(10) &= 123\\
+            L(11) &= 199\\
+            L(12) &= 322
         \end{align*}
     \end{enumerate}
     \newpage
@@ -205,16 +207,16 @@ Section 3.1:
     \begin{enumerate}
         \item Write down a recurrence relation for M(n), the amount owed after n weeks.
         \[
-        Q(n) = 
+        M(n) = 
         \begin{cases} 
         500 &     \text{if } n = 0 \\
         1.1 \times (M(n-1)-100) & \text{if } n > 0
         \end{cases}
         \]
         \item How much will you owe after four weeks?
-        \[Q(4) = 1.1 \times (Q(3)-100) = 1.1 \times (1.1 \times (Q(2) - 100) - 100)\]
-        \[ = 1.1 \times (1.1 \times (1.1\times (Q(1) - 100) - 100) - 100)\]
-        \[ = 1.1 \times (1.1 \times (1.1\times (1.1\times (Q(0) - 100) - 100) - 100) - 100)\]
+        \[M(4) = 1.1 \times (M(3)-100) = 1.1 \times (1.1 \times (M(2) - 100) - 100)\]
+        \[ = 1.1 \times (1.1 \times (1.1\times (M(1) - 100) - 100) - 100)\]
+        \[ = 1.1 \times (1.1 \times (1.1\times (1.1\times (M(0) - 100) - 100) - 100) - 100)\]
         \[ = 1.1 \times (1.1 \times (1.1\times (1.1\times (500 - 100) - 100) - 100) - 100) = 221.54\]
     \end{enumerate}
     \item Every year, Alice gets a raise of \textdollar 3,000 plus 5\% of her previous year’s salary. Her starting salary is \textdollar 50,000. Give a recurrence relation for S(n), Alice’s salary after n years, for $n \geq 0$.
