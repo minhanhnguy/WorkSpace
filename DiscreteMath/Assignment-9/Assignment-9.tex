@@ -1,0 +1,318 @@
+\documentclass[12pt]{article}
+\setlength{\oddsidemargin}{0in}
+\setlength{\evensidemargin}{0in}
+\setlength{\textwidth}{6.5in}
+\setlength{\parindent}{0in}
+\setlength{\parskip}{\baselineskip}
+
+\usepackage{amsmath,amsfonts,amssymb,bm,graphics,pgfplots,framed,dsfont}
+\usepackage[scale=0.75,top=1cm,bottom=3cm]{geometry}
+
+\begin{document}
+
+\textbf{Minh Anh Nguyen }\\
+\textbf{Discrete Math\hfill Assignment 9}
+
+\hrulefill
+
+\begin{enumerate}
+    \item Prove that the closed-form solution in Equation 3.2.2 matches the recurrence relation in Equation 3.2.1. (See Example 3.8.)\\
+    Step 1: When n = 0:\\
+    From the recursive definition:       
+    \[M(0) = 500\]
+    From the closed-form expression: 
+    \[M(0) = 500 \times (1.10)^0 = 500\]
+    Thus, the base case is true.\\
+    Step 2: Assume $M(k-1) = 500 \times (1.10)^{k-1}$ is true with some $k > 0$.\\
+    Step 3: Prove that $M(k) = 500 \times (1.10)^{k}$.\\
+    \[M(k) = 1.10.M(k-1) = 1.10.500 \times (1.10)^{k-1} = 500 \times (1.10)^{k}\]
+    Hence, this is true.\\
+    According to the induction principle, the closed-form solution in Equation 3.2.2 matches the recurrence relation in Equation 3.2.1.
+
+    \item Prove that the closed-form solution in Equation 3.1.2 matches the recurrence relation in Equation 3.1.3. (See page 108.)\\
+    Step 1: When n = 1\\
+    From the recursive definition:
+    \[P(1) = 1\]    
+    From the closed-form expression:
+    \[P(1) = \frac{1\times(1+1)}{2} = \frac{2}{2} = 1\]
+    Thus, the base case is true.\\
+    Step 2: Assume $P(k-1) = \frac{(k-1)(k-1+1)}{2} = \frac{(k-1)(k)}{2}$ with some $k > 1$.\\
+    Step 3: Prove that $P(k) = \frac{k(k+1)}{2}$.
+    \[P(k) = k + P(k-1) = k + \frac{(k-1)(k)}{2} = \frac{2k + (k-1)k}{2}\]
+    \[ = \frac{k(2+k-1)}{2} = \frac{k(k+1)}{2}\]
+    Hence, this is true.\\
+    According to the induction principle, the closed-form solution in Equation 3.1.2 matches the recurrence relation in Equation 3.1.3.
+
+    \item Consider the following recurrence relation:
+    \[
+    B(n) = 
+    \begin{cases}
+    2 & \text{if } n = 1 \\
+    3 \cdot B(n-1) + 2 & \text{if } n > 1
+    \end{cases}
+    \]
+    Use induction to prove that $B(n) = 3^n - 1$ for all $n \geq 1$.\\
+    Step 1: When n = 1.\\
+    From the recursive expression:
+    \[B(1) = 2\]
+    From the closed-form expression:
+    \[B(1) = 3^1 - 1 = 2\]
+    Thus, the base case is true.\\
+    Step 2: Assume $B(k-1) = 3^{k-1} - 1$ with some $k > 1$.\\
+    Step 3: Prove that $B(k) = 3^k -1$.
+    \[B(k) = 3.B(k-1) + 2 = 3.(3^{k-1} - 1) + 2 = 3^k - 3 + 2 = 3^k - 1\]
+    Hence, this is true.\\
+    According to the induction principle, $B(n) = 3^n - 1$ with all $n \geq 1$.
+    \item Consider the following recurrence relation:
+    \[
+    P(n) = 
+    \begin{cases}
+    0 & \text{if } n = 0 \\
+    5 \cdot P(n-1) + 1 & \text{if } n > 0
+    \end{cases}
+    \]
+    Prove by induction that $P(n) = \frac{5^n-1}{4}$ for all $n \geq 0$.\\
+    Step 1: When n = 0\\
+    From the recursive expression:
+    \[P(0) = 0\]
+    From the closed-form expression:
+    \[P(0) = \frac{5^0 - 1}{4} = \frac{1-1}{4} = 0\]
+    Hence, the base case is true.\\
+    Step 2: Assume 
+    \[P(k-1) = \frac{5^{k-1}-1}{4}\]
+    is true with some $k > 0$.\\
+    Step 3: Prove that $P(k) = \frac{5^k-1}{4}$.
+    \[P(k) = 5.P(k-1) + 1 = 5(\frac{5^{k-1}-1}{4}) + 1 = \frac{5^{k}-5}{4} + \frac{4}{4} = \frac{5^{k}-1}{4}\]
+    Hence, this is true.\\
+    According to the induction principle, $P(n) = \frac{5^n-1}{4}$ for all $n \geq 0$.
+    \item Consider the following recurrence relation:
+    \[
+    C(n) = 
+    \begin{cases}
+    0 & \text{if } n = 0 \\
+    n + 3 \cdot C(n-1) & \text{if } n > 0
+    \end{cases}
+    \]
+    Prove by induction that $C(n) = \frac{3^{n+1} - 2n - 3}{4}$ for all $n \geq 0$.\\
+    Step 1: For n = 0\\
+    From the recursive expression:
+    \[C(0) = 0\]
+    From the closed-form expression:
+    \[C(0) = \frac{3^{0+1} - 2(0) - 3}{4} = \frac{3-3}{4} = 0\]
+    Hence, the base case is true.\\
+    Step 2: Assume that
+    \[C(k-1) = \frac{3^{k-1+1} - 2(k-1) - 3}{4} = \frac{3^{k} - 2k + 2 - 3}{4} = \frac{3^{k} - 2k - 1}{4}\] 
+    with some $k > 0$.\\
+    Step 3: Prove that $C(k) = \frac{3^{k+1} - 2k - 3}{4}$ for all $k \geq 0$
+    \[C(k) = k + 3 \cdot C(k-1) = k + 3 \cdot \frac{3^{k} - 2k - 1}{4} = \frac{4k}{4} + \frac{3^{k+1} - 6k - 3}{4} = \frac{3^{k+1} - 2k - 3}{4}\]
+    Hence, this is true.\\
+    According to the induction principle, $C(n) = \frac{3^{n+1} - 2n - 3}{4}$ for all $n \geq 0$.
+    \item Consider the following recurrence relation:
+    \[
+    Q(n) = 
+    \begin{cases}
+    4 & \text{if } n = 0 \\
+    2 \cdot Q(n-1) - 3& \text{if } n > 0
+    \end{cases}
+    \]     
+    Prove by induction that $Q(n) = 2^n + 3$, for all $n \geq 0$.\\
+    Step 1: For n = 0\\
+    From the recursive expression:
+    \[Q(0) = 4\]
+    From the closed-from expression:
+    \[Q(0) = 2^0 + 3 = 1 + 3 = 4\]
+    Hence, the base case is true.\\
+    Step 2: Assume that
+    \[Q(k-1) = 2^{k-1} + 3\]
+    with some $k > 0$.\\
+    Step 3: Prove that $Q(k) = 2^k + 3$
+    \[Q(k) = 2Q(k-1) - 3 = 2 \times (2^{k-1} + 3) - 3 = 2^k + 6 - 3 = 2^k + 3\]
+    Hence, this is true.\\
+    According to the induction principle, $Q(n) = 2^n + 3$, for all $n \geq 0$.
+
+    \item Consider the following recurrence relation:
+    \[
+    R(n) = 
+    \begin{cases}
+    1 & \text{if } n = 0 \\
+    R(n-1) + 2n& \text{if } n > 0
+    \end{cases}
+    \]
+    Prove by induction that $R(n) = n^2 + n + 1$ for all $n \geq 0$.\\
+    Step 1: For n = 0\\
+    From the recursive expression:
+    \[R(0) = 1\]
+    From the closed-form expression:
+    \[R(0) = 0^2 + 0 + 1 = 1\]
+    Hence, the base case is true.\\
+    Step 2: Assume that
+    \[R(k-1) = (k-1)^2 + k - 1 + 1 = (k-1)^2 + k\]
+    with some $k > 0 $.
+    Step 3: Prove that $R(k) = k^2 + k - 1$.
+    \[R(k) = R(k-1) + 2k = (k-1)^2 + k + 2k = k^2 - 2k - 1 + 3k = k^2 + k -1\]
+    Hence, this is true.\\
+    According to the induction principle, $R(n) = n^2 + n + 1$ for all $n \geq 0$.
+
+    \item Guess a closed-form solution for the following recurrence relation:
+    \[
+    K(n) = 
+    \begin{cases}
+    1 & \text{if } n = 0 \\
+    2 \cdot K(n-1) - n + 1& \text{if } n > 0
+    \end{cases}
+    \]
+    Prove that your guess is correct.\\
+    The closed-form expression of the function is 
+    \[K(n) = n + 1\]
+    Step 1: For n = 0\\
+    From the recursive expression:
+    \[K(0) = 1\]
+    From the closed-form expression:
+    \[K(0) = 0 + 1= 1\]
+    Hence, the base case is true.\\
+    Step 2: Assume that
+    \[K(k - 1) = k - 1 + 1 = k\]
+    with some $k > 0$.\\
+    Step 3: Prove that $K(k) = k + 1$
+    \[K(k) = 2K(k-1) - k + 1 = 2k - k + 1 = k + 1\]
+    Hence, this is true.\\
+    According to the induction principle, $K(n) = n + 1$ with all $n \geq 0$.
+    
+    \item Guess a closed-form solution for the following recurrence relation:
+    \[
+    P(n) = 
+    \begin{cases}
+    5 & \text{if } n = 0 \\
+    P(n-1) + 3& \text{if } n > 0
+    \end{cases}
+    \]
+    Prove that your guess is corerct.\\
+    The closed-form of this equation is:
+    \[P(n) = 5 + 3n\]
+    Step 1: For n = 0\\
+    From the recursive expression:
+    \[P(0) = 5\]
+    From the closed-form expression:
+    \[P(0) = 5 + 3(0) = 5\]
+    Step 2: Assume that 
+    \[P(k-1) = 5 + 3(k-1)\]
+    is true with some $k > 0$.\\
+    Step 3: Prove that $P(k) = 5 + 3k$
+    \[P(k) = P(n-1) + 3 = 5 + 3(k-1) + 3 = 5 + 3k\]
+    Hence, this is true.
+    \\According to the induction principle, $P(n) = 5 + 3n$ with all $n \geq 0$.
+
+    \item Consider the following recurrence relation:
+    \[
+    P(n) = 
+    \begin{cases}
+    1 & \text{if } n = 0 \\
+    P(n-1) + n^2& \text{if } n > 0
+    \end{cases}
+    \]  
+    \begin{enumerate}
+        \item Compute the first eight values of P(n).
+        \[P(0) = 1\]
+        \[P(1) = 2\]
+        \[P(2) = 6\]
+        \[P(3) = 15\]
+        \[P(4) = 31\]
+        \[P(5) = 56\]
+        \[P(6) = 92\]
+        \[P(7) = 141\]
+        \item Analyze the sequences of differences. What does this suggest about the closed-form solution?\\
+        To find a pattern, let's look at the differences between consecutive values:
+
+        \[
+        \begin{aligned}
+            P(1) - P(0) &= 2 - 1 = 1 \\
+            P(2) - P(1) &= 6 - 2 = 4 \\
+            P(3) - P(2) &= 15 - 6 = 9 \\
+            P(4) - P(3) &= 31 - 15 = 16 \\
+            P(5) - P(4) &= 56 - 31 = 25 \\
+            P(6) - P(5) &= 92 - 56 = 36 \\
+            P(7) - P(6) &= 141 - 92 = 49 \\
+        \end{aligned}
+        \]
+        
+        These differences \(1, 4, 9, 16, 25, 36, 49\) are perfect squares: \(1^2, 2^2, 3^2, 4^2, 5^2, 6^2, 7^2\).
+        
+        The sequence of differences suggests that \(P(n)\) is related to the sum of squares formula.
+        
+
+        \item Find a good candidate for a closed-form solution.
+        \[P(n) = 1 + \frac{n(n+1)(2n+1)}{6}\]
+        \item Prove that your candidate solution is the correct closed-form solution.\\
+        Step 1: For n = 0:\\
+        From the recursive expression:
+        \[P(0) = 1\]
+        From the closed-form expression:
+        \[P(0) = 1 + \frac{0(0+1)(2(0)+1)}{6} = 1\]
+        Hence, the base case is true\\
+        Step 2: Assume that 
+        \[P(k-1) = 1 + \frac{(k-1)(k-1+1)(2(k-1)+1)}{6}\]
+        \[P(k-1) = 1 + \frac{(k-1)(k)(2k-1)}{6}\]
+        with some $k > 0$.\\
+        Step 3: Prove that $P(k) = 1 + \frac{k(k+1)(2k+1)}{6}$
+        \[P(k) = P(k-1) + k^2 = 1 + \frac{(k-1)(k)(2k-1)}{6} + k^2\]
+        \[P(k) = 1 + \frac{(k-1)(k)(2k-1) + 6k^2}{6} = 1 + \frac{k[(k-1)(2k-1)+6k]}{6} \]
+        \[P(k) = 1 + \frac{k[2k^2-3k+1+6k]}{6} = 1 + \frac{k[2k^2+3k+1]}{6} = 1 + \frac{k(k+1)(2k+1)}{6}\]
+        Hence, this is true.\\
+        According to the induction principle, $P(n) = 1 + \frac{n(n+1)(2n+1)}{6}$ with all $n \geq 0$.
+    \end{enumerate}
+
+    \item Consider the following recurrence relation:
+    \[
+    G(n) = 
+    \begin{cases}
+    1 & \text{if } n = 0 \\
+    G(n-1) + 2n - 1& \text{if } n > 0
+    \end{cases}
+    \] 
+    \begin{enumerate}
+        \item Calculate G(0), G(1), G(2), G(3), G(4), and G(5).
+        \[G(0) = 1\]
+        \[G(1) = 2\]
+        \[G(2) = 5\]
+        \[G(3) = 10\]
+        \[G(4) = 17\]
+        \[G(5) = 26\]
+        \item Use sequences of differences to guess at a closed-form solution for G(n).\\
+        To find a pattern, let's look at the differences between consecutive values:
+
+        \[
+        \begin{aligned}
+            G(1) - G(0) &= 2 - 1 = 1 \\
+            G(2) - G(1) &= 5 - 2 = 3 \\
+            G(3) - G(2) &= 10 - 5 = 5 \\
+            G(4) - G(3) &= 17 - 10 = 7 \\
+            G(5) - G(4) &= 26 - 17 = 9 \\
+        \end{aligned}
+        \]
+
+        These differences are an sequence of increasing odd numbers.\\
+        Hence, the closed-form solution for G(n) is:
+        \[G(n) = 1 + n^2\]
+        \item Prove that your guess is correct.\\
+        Step 1: For n = 0\\
+        From the recursive expression:
+        \[G(0) = 1\]
+        From the closed-form expression:
+        \[G(0) = 1 + 0^2 = 1\]
+        Hence, the base case is true.\\
+        Step 2: Assume that
+        \[G(k-1) = 1 + (k-1)^2 = 1 + k^2 - 2k + 1 = k^2 - 2k + 2\]
+        with some $k > 0$.\\
+        Step 3: Prove that $G(k) = 1 + k^2$
+        \[G(k) = G(n-1) + 2k - 1 = k^2 - 2k + 2 + 2k - 1 = 1 + k^2\]
+        Hence, this is true.
+
+        According to the induction principle, $G(n) = 1 + n^2$ with all $n \geq 0$.
+    \end{enumerate}
+    
+    \item Find a polynomial function f(n) such that f(1), f(2), …, f(8) is the following sequence:
+    \[2, 7, 12, 17, 22, 27, 32, 37.\]
+    A polynomial function f(n) can produce this sequence is:
+    \[f(n) = 5n - 3\]
+\end{enumerate}
+\end{document}
