@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.11.2)  19 NOV 2024 21:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.11.2)  14 NOV 2024 00:13
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/home/minh/Documents/WorkSpace/Calculus1/Assignment-13/Assignment-13.tex
-(/home/minh/Documents/WorkSpace/Calculus1/Assignment-13/Assignment-13.tex
+**/home/minh/Documents/WorkSpace/Calculus1/Assignment-12/Assignment-12.tex
+(/home/minh/Documents/WorkSpace/Calculus1/Assignment-12/Assignment-12.tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
@@ -369,16 +369,18 @@ Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
 \FrameSep=\dimen275
 ) (/usr/share/texlive/texmf-dist/tex/latex/doublestroke/dsfont.sty
 Package: dsfont 1995/08/01 v0.1 Double stroke roman fonts
-) (/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/libs/tikzlibrarypgfplots.fillbetween.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfcontrib/tikzlibraryfillbetween.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryintersections.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryintersections.code.tex
+\pgf@intersect@solutions=\count301
+)) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfcontrib/tikzlibrarydecorations.softclip.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfcontrib/pgflibraryfillbetween.code.tex))) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/libs/tikzlibrarypgfplots.decorations.softclip.code.tex)) (/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
  (/usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
  (/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
 Package: iftex 2022/02/03 v1.0f TeX engine tests
 ))
-\Gm@cnth=\count301
-\Gm@cntv=\count302
-\c@Gm@tempcnt=\count303
+\Gm@cnth=\count302
+\Gm@cntv=\count303
+\c@Gm@tempcnt=\count304
 \Gm@bindingoffset=\dimen276
 \Gm@wd@mp=\dimen277
 \Gm@odd@mp=\dimen278
@@ -395,37 +397,37 @@ Package geometry Warning: Over-specification in `v'-direction.
 
 ) (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count304
+\l__color_backend_stack_int=\count305
 \l__pdf_internal_box=\box65
-) (./Assignment-13.aux)
-\openout1 = `Assignment-13.aux'.
+) (./Assignment-12.aux)
+\openout1 = `Assignment-12.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
  (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count305
+\scratchcounter=\count306
 \scratchdimen=\dimen284
 \scratchbox=\box66
-\nofMPsegments=\count306
-\nofMParguments=\count307
+\nofMPsegments=\count307
+\nofMParguments=\count308
 \everyMPshowfont=\toks43
-\MPscratchCnt=\count308
+\MPscratchCnt=\count309
 \MPscratchDim=\dimen285
-\MPnumerator=\count309
-\makeMPintoPDFobject=\count310
+\MPnumerator=\count310
+\makeMPintoPDFobject=\count311
 \everyMPtoPDFconversion=\toks44
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -435,7 +437,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
 
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable tick labels; missing features). Consider writing \pgfplotsset{compat=1.18} into your preamble.
- on input line 11.
+ on input line 12.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -471,52 +473,81 @@ Package pgfplots Warning: running in backwards compatibility mode (unsuitable ti
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 25.
+<img/img-0.png, id=4, 99.37125pt x 83.1105pt>
+File: img/img-0.png Graphic file (type png)
+<use img/img-0.png>
+Package pdftex.def Info: img/img-0.png  used on input line 27.
+(pdftex.def)             Requested size: 99.371pt x 83.11028pt.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 31.
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 25.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 31.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [1
-
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2]
-<img/img-0.png, id=19, 81.906pt x 84.91725pt>
-File: img/img-0.png Graphic file (type png)
-<use img/img-0.png>
-Package pdftex.def Info: img/img-0.png  used on input line 131.
-(pdftex.def)             Requested size: 81.90579pt x 84.91704pt.
- [3 <./img/img-0.png>] [4]
-<img/img-1.png, id=29, 93.951pt x 64.44075pt>
+)
+<img/img-1.png, id=6, 101.178pt x 92.14426pt>
 File: img/img-1.png Graphic file (type png)
 <use img/img-1.png>
-Package pdftex.def Info: img/img-1.png  used on input line 243.
-(pdftex.def)             Requested size: 93.95078pt x 64.44058pt.
- [5 <./img/img-1.png>] [6]
-<img/img-2.png, id=37, 136.71075pt x 61.4295pt>
+Package pdftex.def Info: img/img-1.png  used on input line 39.
+(pdftex.def)             Requested size: 101.17773pt x 92.14401pt.
+ [1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./img/img-0.png> <./img/img-1.png>]
+Package pgfplots info on input line 96: fill between: activating layered graphics
+\pgf@layerbox@axis background=\box67
+\pgf@layerboxsaved@axis background=\box68
+\pgf@layerbox@axis grid=\box69
+\pgf@layerboxsaved@axis grid=\box70
+\pgf@layerbox@axis ticks=\box71
+\pgf@layerboxsaved@axis ticks=\box72
+\pgf@layerbox@axis lines=\box73
+\pgf@layerboxsaved@axis lines=\box74
+\pgf@layerbox@axis tick labels=\box75
+\pgf@layerboxsaved@axis tick labels=\box76
+\pgf@layerbox@pre main=\box77
+\pgf@layerboxsaved@pre main=\box78
+\pgf@layerbox@axis descriptions=\box79
+\pgf@layerboxsaved@axis descriptions=\box80
+\pgf@layerbox@axis foreground=\box81
+\pgf@layerboxsaved@axis foreground=\box82
+Package pgfplots info on input line 96: Setting layers 'axis background,axis grid,axis ticks,axis lines,axis tick labels,pre main,main,axis descriptions,axis foreground'...
+Package pgfplots info on input line 145: fill between: activating layered graphics
+Package pgfplots info on input line 145: Setting layers 'axis background,axis grid,axis ticks,axis lines,axis tick labels,pre main,main,axis descriptions,axis foreground'...
+ [2]
+Package pgfplots info on input line 177: fill between: activating layered graphics
+Package pgfplots info on input line 177: Setting layers 'axis background,axis grid,axis ticks,axis lines,axis tick labels,pre main,main,axis descriptions,axis foreground'...
+ [3]
+<img/img-2.png, id=29, 92.7465pt x 82.50826pt>
 File: img/img-2.png Graphic file (type png)
 <use img/img-2.png>
-Package pdftex.def Info: img/img-2.png  used on input line 302.
-(pdftex.def)             Requested size: 136.7104pt x 61.42934pt.
- [7 <./img/img-2.png>] (./Assignment-13.aux)
+Package pdftex.def Info: img/img-2.png  used on input line 219.
+(pdftex.def)             Requested size: 92.74628pt x 82.50804pt.
+ [4 <./img/img-2.png>]
+<img/img-3.png, id=34, 97.5645pt x 87.32625pt>
+File: img/img-3.png Graphic file (type png)
+<use img/img-3.png>
+Package pdftex.def Info: img/img-3.png  used on input line 231.
+(pdftex.def)             Requested size: 97.56424pt x 87.32603pt.
+ [5 <./img/img-3.png>] (./Assignment-12.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 25731 strings out of 474222
- 657504 string characters out of 5748733
- 1943975 words of memory out of 5000000
- 47610 multiletter control sequences out of 15000+600000
+ 24807 strings out of 474222
+ 644371 string characters out of 5748733
+ 1947975 words of memory out of 5000000
+ 46664 multiletter control sequences out of 15000+600000
  565483 words of font info for 63 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,17n,107p,816b,2268s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 99i,6n,107p,827b,2059s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on Assignment-13.pdf (7 pages, 142702 bytes).
+Output written on Assignment-12.pdf (5 pages, 133784 bytes).
 PDF statistics:
- 83 PDF objects out of 1000 (max. 8388607)
- 49 compressed objects within 1 object stream
+ 77 PDF objects out of 1000 (max. 8388607)
+ 43 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 28 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 33 words of extra memory for PDF output out of 10000 (max. 10000000)
 
