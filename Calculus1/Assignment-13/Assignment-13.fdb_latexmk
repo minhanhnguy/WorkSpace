@@ -1,7 +1,7 @@
 # Fdb version 4
-["pdflatex"] 1732081126.89935 "/home/minh/Documents/WorkSpace/Calculus1/Assignment-13/Assignment-13.tex" "Assignment-13.pdf" "Assignment-13" 1732081128.53525 0
+["pdflatex"] 1732081252.64753 "/home/minh/Documents/WorkSpace/Calculus1/Assignment-13/Assignment-13.tex" "Assignment-13.pdf" "Assignment-13" 1732081254.36517 0
   "/etc/texmf/web2c/texmf.cnf" 1730590647.74024 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/minh/Documents/WorkSpace/Calculus1/Assignment-13/Assignment-13.tex" 1732081126.69569 13537 d60069528626028a7d35c08a29e4324b ""
+  "/home/minh/Documents/WorkSpace/Calculus1/Assignment-13/Assignment-13.tex" 1732081252.47122 13535 397ae6649a22f3ff28568a8df0f54790 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy6.tfm" 1246382020 1124 14ccf5552bc7f77ca02a8a402bea8bfb ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy8.tfm" 1246382020 1120 200be8b775682cdf80acad4be5ef57e4 ""
@@ -176,8 +176,8 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1707919699 40399 f2c302f7d2af602abb742093540a5834 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1730592168.33986 5472669 54eaf61a88b6b7896ebd0dac973cb29c ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1730592278 8215936 631733d1f9549363b545d4ca7b0baa88 ""
-  "Assignment-13.aux" 1732081128.47865 32 4d1825978335c8847f72f7c473f9edc8 "pdflatex"
-  "Assignment-13.tex" 1732081126.69569 13537 d60069528626028a7d35c08a29e4324b ""
+  "Assignment-13.aux" 1732081254.28758 32 4d1825978335c8847f72f7c473f9edc8 "pdflatex"
+  "Assignment-13.tex" 1732081252.47122 13535 397ae6649a22f3ff28568a8df0f54790 ""
   "img/img-0.png" 1732063131.91906 6171 6a7c715b08b11cb4d149b5431d18b61d ""
   "img/img-1.png" 1732078250.94006 8272 106077b13d94a7d1278552983bbd121f ""
   "img/img-2.png" 1732080709.38492 4229 d6ab8c921f5a83bdb31795c9aac7a198 ""
