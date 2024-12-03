@@ -579,6 +579,51 @@ Section 6.3:
         \[x = \frac{1 - \log_5 (9)}{2} \approx -0.183\]
     \end{enumerate}
 
+\setcounter{enumi}{26}
+    \item Find the limit.
+    \[\lim_{x \to 2^+} e^{3/(2-x)} = 0\]
+
+\setcounter{enumi}{30}  
+    \item Differentiate the function.
+    \[f(t) = -2e^t\]
+    \[f'(t) = -2e^t\]
+
+\setcounter{enumi}{40}
+    \item Differentiate the function.
+    \[y = x^2e^{-3x}\]
+    \[y' = (x^2)'e^{-3x} + (e^{-3x})'(x^2)\]
+    \[y' = 2xe^{-3x} - 3e^{-3x}x^2\]
+
+\setcounter{enumi}{42}  
+    \item Differentiate the function.
+    \[f(t) = e^{at} \sin bt\]
+    \[f'(t) = (e^{at})' \sin bt + e^{at} (\sin bt)'\]
+    \[f'(t) = ae^{at} \sin bt + be^{at}\cos bt\]
+
+\setcounter{enumi}{44}  
+    \item Differentiate the function.
+    \[F(t) = e^{t\sin 2t}\]
+    \[F'(t) = e^{t\sin 2t}(t\sin 2t)'\]
+    \[F'(t) = e^{t\sin 2t}(\sin 2t + 2t \cos 2t)\]
+
+\setcounter{enumi}{48}  
+    \item Differentiate the function.
+    \[g(x) = \sin (\frac{e^x}{1+e^x})\]
+    \[g'(x) = \cos (\frac{e^x}{1+e^x}) (\frac{e^x}{1+e^x})'\]
+    \[g'(x) = \cos (\frac{e^x}{1+e^x})(\frac{(e^x)'(1+e^x) - (1+e^x)'e^x}{(1+e^x)^2})\]
+    \[g'(x) = \cos (\frac{e^x}{1+e^x})(\frac{e^x(1+e^x) - e^{2x}}{(1+e^x)^2})\]
+    \[g'(x) = \cos (\frac{e^x}{1+e^x})(\frac{e^x+e^{2x} - e^{2x}}{(1+e^x)^2})\]
+    \[g'(x) = \cos (\frac{e^x}{1+e^x})(\frac{e^x}{(1+e^x)^2})\]
+
+\setcounter{enumi}{54}
+    \item Show that the function \(y = e^x + e^{-x/2}\) satisfies the differential equation \(2y'' - y' - y = 0\).
+    \[y' = e^x - \frac{1}{2}e^{-x/2}\]
+    \[y'' = e^x + \frac{1}{4}e^{-x/2}\]
+    Hence:
+    \[2y'' - y' - y = 2(e^x + \frac{1}{4}e^{-x/2}) - e^x + \frac{1}{2}e^{-x/2} - e^x - e^{-x/2}\]
+    \[ = 2e^x + \frac{1}{2}e^{-x/2} - e^x + \frac{1}{2}e^{-x/2} - e^x - e^{-x/2} = 2e^x + e^{-x/2} - 2e^x - e^{-x/2} = 0\]
+
+
 \end{enumerate}
 
 \end{document}
